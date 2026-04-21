@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Help • Brain MRI Analyzer{% endblock %}
+
+{% block content %}
+<div class="card">
+  <h2>Help & Tips</h2>
+  <div class="sub">Quick guidance on using the app</div>
+
+  <ul>
+    <li>Go to <b>Analyze</b>, upload a single MRI slice (.png/.jpg/.tif).</li>
+    <li>Optionally type a question to steer the description (e.g., “Summarize likely findings”).</li>
+    <li>Enable <b>Advanced Report</b> to generate Grad-CAM heatmap (requires classifier checkpoint).</li>
+    <li>Enable <b>Use RAG</b> to enrich the explanation with retrieved references (requires built index).</li>
+    <li>See past runs in <b>History</b>. You can refresh or clear the list.</li>
+  </ul>
+
+  <p class="footer-note">
+    Backend endpoints: <span class="mono">POST /analyze</span>, <span class="mono">GET /api/history</span>,
+    <span class="mono">POST /api/history/clear</span>, <span class="mono">GET /healthz</span>.
+  </p>
+</div>
+{% endblock %}

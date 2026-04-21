@@ -1,0 +1,16 @@
+# مثال لملف RAG جديد — Differential Diagnosis (التفاضل التشخيصي)
+# يمكنك نسخ هذا الملف وتعديله أو إضافة ملفات .txt أخرى في أي مجلد تحت corpus/
+# بعد ذلك شغّل: python rag/build_index.py
+
+[TITLE] Short notes on differential diagnosis in brain MRI
+[TAGS] differential, glioma, meningioma, pituitary, metastasis, abscess, diagnosis
+
+---
+
+When the image shows a ring-enhancing lesion, consider: high-grade glioma (GBM), metastasis, abscess, or demyelination. Clinical context and DWI/ADC help: abscess often shows restricted diffusion; tumor and metastasis are variable.
+
+When the lesion is extra-axial and dural-based with homogeneous enhancement, meningioma is a leading diagnosis. Consider metastasis or hemangiopericytoma if atypical.
+
+Sellar or suprasellar mass: think pituitary adenoma, craniopharyngioma, or meningioma. Pituitary adenomas often respect the diaphragm and show variable T2 signal.
+
+No mass, normal FLAIR and T2, no enhancement: supports no_tumor or normal variant. Always state "correlate clinically" when confidence is limited.

@@ -1,0 +1,24 @@
+[ID] ref.evaluation_metrics.v1
+[TITLE] Evaluation Metrics for Brain MRI Classification
+[SOURCE] scikit-learn; IEEE Medical Imaging Standards (2023)
+[TAGS] evaluation, accuracy, precision, recall, F1, confusion_matrix, ROC, IoU
+[LANG] en
+
+### Classification Metrics
+
+| Metric | Formula | Description |
+|---------|----------|-------------|
+| **Accuracy** | (TP + TN) / (TP + TN + FP + FN) | Overall correct predictions. |
+| **Precision** | TP / (TP + FP) | Fraction of predicted positives that are correct. |
+| **Recall (Sensitivity)** | TP / (TP + FN) | Fraction of actual positives correctly predicted. |
+| **Specificity** | TN / (TN + FP) | True-negative rate. |
+| **F1-Score** | 2 × (Precision × Recall) / (Precision + Recall) | Harmonic mean of precision and recall. |
+| **AUC (ROC)** | Area under ROC curve | Measures separability between classes. |
+
+### Multi-Class Evaluation
+For multi-class (glioma, meningioma, pituitary, no_tumor):
+- Use macro-averaged precision/recall/F1.  
+- Compute confusion matrix to visualize per-class errors.  
+- IoU (Intersection over Union) used for segmentation models.
+
+### Example Output

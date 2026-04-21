@@ -1,0 +1,49 @@
+[ID] explain.xai_in_medicine.v1
+[TITLE] Explainable AI (XAI) in Medical Imaging and Radiology
+[SOURCE] Samek et al., Nature Communications (2023); RSNA AI Explainability Task Force (2024)
+[TAGS] xai, explainability, radiology, interpretability, transparency, AI, ethics
+[LANG] en
+
+### Overview
+Explainable AI (XAI) in medicine aims to make AI model decisions **transparent, interpretable, and clinically trustworthy**.  
+In medical imaging, this ensures that radiologists understand *why* a model predicted a certain diagnosis — critical for safety and accountability.
+
+### Core Principles
+1. **Transparency:** Provide visual or textual reasoning behind outputs.  
+2. **Faithfulness:** Explanations must accurately reflect the model’s true reasoning.  
+3. **Human-Centric Design:** Align with clinician workflows and terminology.  
+4. **Accountability:** Support audit trails for AI decisions in patient care.
+
+### Key Methods
+| Category | Examples | Use |
+|-----------|-----------|-----|
+| Saliency-based | Grad-CAM, Integrated Gradients | Highlight important pixels |
+| Attention-based | Transformer heatmaps | Text-image relevance |
+| Concept-based | TCAV (Testing with Concept Activation Vectors) | Explain features like “dural tail” |
+| Example-based | Counterfactuals, Similar Cases | Explain via analogy |
+
+### In Clinical MRI
+- Enhances trust in automated diagnosis of gliomas, meningiomas, pituitary adenomas.  
+- Enables *“explainable second opinion”* for radiologists.  
+- Supports education and model debugging (verifying correct region focus).  
+- Required by **EU AI Act (2025)** for clinical deployment.
+
+### Best Practices
+- Always pair model output with a visualization (Grad-CAM / Attention).  
+- Use structured reporting language ("Findings / Impression").  
+- Include uncertainty estimates (“Confidence: High / Medium / Low”).  
+- Store both heatmap and text rationale in patient record.
+
+### Limitations
+- Explanations ≠ correctness; they show focus, not truth.  
+- Overinterpretation of visual maps can mislead untrained users.  
+- Computational cost increases for high-resolution attention.
+
+### Future Directions
+- **Multimodal XAI:** Integrating image + text reasoning layers.  
+- **Causal Explainability:** Understanding not just *what* but *why*.  
+- **Regulatory Standards:** RSNA-AI interpretability certification for medical software.
+
+### Summary
+Explainability in radiology is not optional — it’s a safety requirement.  
+When combined with RAG and structured reporting, XAI enables **clinically reliable AI systems** that doctors can interpret, audit, and trust.

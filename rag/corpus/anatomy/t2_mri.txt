@@ -1,0 +1,30 @@
+[ID] anatomy.t2_mri.v1
+[TITLE] T2-Weighted MRI Brain Anatomy and Interpretation
+[SOURCE] RSNA MRI Teaching Atlas; ACR Radiology Fundamentals (2024)
+[TAGS] MRI, T2, brain, anatomy, edema, tumor, radiology
+[LANG] en
+
+### Overview
+T2-weighted images emphasize **water and fluid content**, making them critical for detecting **edema**, **inflammation**, and **necrosis**.  
+Fluids appear bright, while fatty structures appear dark.
+
+### Appearance Summary
+| Tissue | T2 Appearance |
+|---------|----------------|
+| CSF / Edema | Bright |
+| White matter | Dark |
+| Gray matter | Intermediate |
+| Fat | Dark |
+| Calcification / Bone | Very dark |
+
+### Clinical Relevance
+- High signal on T2 → Increased water content (edema, cystic changes).  
+- Dark areas → Fibrosis, calcification, or hemorrhage.
+
+### Tumor Visualization
+- Most brain tumors appear **hyperintense on T2** due to surrounding edema.  
+- Gliomas and metastases exhibit strong T2 brightness with variable margins.
+
+### Diagnostic Notes
+T2 complements T1 by revealing the **extent of tumor-associated edema**.  
+It’s essential for treatment planning and follow-up imaging.

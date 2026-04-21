@@ -1,0 +1,31 @@
+[ID] anatomy.t1_mri.v1
+[TITLE] T1-Weighted MRI Brain Anatomy and Interpretation
+[SOURCE] MRI Physics for Radiology (2024); RSNA MRI Atlas
+[TAGS] MRI, T1, brain, anatomy, contrast, tumor, radiology
+[LANG] en
+
+### Overview
+T1-weighted MRI sequences provide **excellent anatomical detail** and are the baseline for structural evaluation.  
+Fat appears bright (hyperintense), while fluids such as CSF appear dark (hypointense).
+
+### Appearance Summary
+| Tissue | T1 Appearance |
+|---------|----------------|
+| White matter | Bright |
+| Gray matter | Intermediate |
+| CSF / Edema | Dark |
+| Fat / Bone marrow | Very bright |
+| Blood (subacute) | Bright |
+
+### Clinical Relevance
+- Pre-contrast T1: Used to define normal anatomy.  
+- Post-contrast T1 (T1 CE): Highlights regions with **blood-brain barrier disruption**, such as tumors, inflammation, or abscesses.
+
+### Tumor Visualization
+- Enhancing ring → Glioblastoma or metastasis.  
+- Homogeneous enhancement → Meningioma or pituitary adenoma.  
+- No enhancement → Low-grade glioma.
+
+### Diagnostic Notes
+T1 is ideal for identifying lesion **enhancement**, **fat content**, and **hemorrhage** stages.  
+Often paired with T2 and FLAIR for comprehensive evaluation.

@@ -1,0 +1,32 @@
+[ID] anatomy.dwi_adc_swi.v1
+[TITLE] Advanced MRI Sequences: DWI, ADC, and SWI
+[SOURCE] RSNA MRI Physics; ACR Neuroimaging Reference (2024)
+[TAGS] DWI, ADC, SWI, diffusion, hemorrhage, necrosis, tumor, MRI
+[LANG] en
+
+### 1. DWI – Diffusion Weighted Imaging
+Measures water molecule motion within tissues.
+
+- **Restricted diffusion (bright)** → Hypercellular tumors, abscess, acute stroke.  
+- **Facilitated diffusion (dark)** → Necrosis or cystic areas.  
+- Often paired with ADC map for confirmation.
+
+### 2. ADC – Apparent Diffusion Coefficient
+Quantifies diffusion in numeric form (mm²/s).  
+Used to differentiate **tumor cellularity** or **ischemic lesions**.
+
+| Tissue | ADC Behavior |
+|---------|---------------|
+| High cellularity (tumor) | Low ADC |
+| Necrosis / cyst | High ADC |
+
+### 3. SWI – Susceptibility Weighted Imaging
+Detects magnetic field inhomogeneities caused by **blood, calcium, or veins**.
+
+- **Blooming artifacts** = hemorrhage or calcification.  
+- Useful for identifying tumor hemorrhage or post-surgical changes.
+
+### Diagnostic Combination
+- **DWI + ADC:** Confirms necrotic vs viable tumor.  
+- **SWI:** Detects hemorrhage in high-grade glioma or post-biopsy changes.  
+- Together, these advanced sequences improve lesion characterization accuracy.

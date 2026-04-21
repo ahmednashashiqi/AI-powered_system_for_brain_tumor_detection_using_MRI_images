@@ -1,0 +1,30 @@
+[ID] anatomy.flair_mri.v1
+[TITLE] FLAIR MRI Sequence: Fluid-Attenuated Inversion Recovery
+[SOURCE] RSNA FLAIR Atlas (2023)
+[TAGS] MRI, FLAIR, edema, tumor, lesion, CSF suppression
+[LANG] en
+
+### Overview
+FLAIR (Fluid-Attenuated Inversion Recovery) is a **T2-weighted sequence** that suppresses pure fluid (CSF) signals.  
+This allows subtle lesions near ventricles or cortical sulci to be more visible.
+
+### Appearance Summary
+| Tissue | FLAIR Appearance |
+|---------|------------------|
+| CSF | Dark (suppressed) |
+| Edema / Tumor | Bright |
+| White matter | Darker |
+| Gray matter | Intermediate |
+
+### Clinical Relevance
+- Highlights periventricular or cortical lesions that might be hidden on T2.  
+- Excellent for identifying **tumor-associated edema**, **gliosis**, and **leukoencephalopathy**.
+
+### Tumor Visualization
+- Gliomas: bright with poorly defined borders.  
+- Meningioma: may show peripheral FLAIR hyperintensity (mild edema).  
+- Pituitary adenoma: typically isointense or mildly bright.
+
+### Diagnostic Notes
+FLAIR = "T2 minus CSF signal".  
+Best used for detecting **pathologic water** (edema, gliosis) rather than pure CSF.

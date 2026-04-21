@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Theme • Brain MRI Analyzer{% endblock %}
+
+{% block content %}
+<div class="card">
+  <h2>Theme</h2>
+  <div class="sub">Switch between Dark and Light modes</div>
+
+  <div style="display:flex;gap:10px">
+    <button id="darkBtn" class="btn">Dark</button>
+    <button id="lightBtn" class="btn">Light</button>
+    <button id="systemBtn" class="btn">System</button>
+  </div>
+
+  <div class="footer-note" style="margin-top:10px">
+    Your choice is saved locally and applied across all pages.
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script defer src="{{ url_for('static', filename='js/theme.js') }}"></script>
+{% endblock %}

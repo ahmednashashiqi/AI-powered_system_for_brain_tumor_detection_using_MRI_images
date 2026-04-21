@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}History • Brain MRI Analyzer{% endblock %}
+
+{% block content %}
+<div class="card">
+  <h2>Analysis History</h2>
+  <div class="sub">Recent runs are listed below. The newest appears first.</div>
+
+  <div style="display:flex;gap:10px;margin-bottom:12px">
+    <button id="refreshBtn" class="btn">Refresh</button>
+    <button id="clearBtn" class="btn">Clear</button>
+  </div>
+
+  <div id="histStatus" class="muted"></div>
+  <div id="histTable" class="result mono" style="white-space:normal"></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script defer src="{{ url_for('static', filename='js/history.js') }}"></script>
+{% endblock %}

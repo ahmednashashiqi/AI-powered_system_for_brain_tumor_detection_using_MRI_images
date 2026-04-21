@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block title %}Analyze • Brain MRI Analyzer{% endblock %}
+
+{% block top_right %}
+  <button id="copyBtn" class="btn">Copy</button>
+  <button id="printBtn" class="btn">Print</button>
+  <button id="downloadBtn" class="btn">Download</button>
+{% endblock %}
+
+{% block content %}
+<div class="grid">
+  <div class="card">
+    <h2>1) Upload MRI Image</h2>
+    <div class="sub">Supported: .png, .jpg, .jpeg, .tif. Max 20 MB.</div>
+
+    <label class="drop" for="file">
+      <span class="icon">⬆️</span>
+      <div>
+        <div style="font-weight:700">Drag & drop your image here</div>
+        <div class="muted">or click to browse</div>
+      </div>
+    </label>
+    <input id="file" type="file" accept="image/*">
+
+    <div class="preview">
+      <img id="preview" alt="Preview will appear here">
+    </div>
+
+    <div style="margin-top:12px">
+      <label class="muted">Question to the model (optional)</label>
+      <input id="question" type="text" placeholder="Describe this image in simple medical terms.">
+    </div>
+
+    <div class="result">
+      <div style="font-weight:700;margin-bottom:6px">Result</div>
+      <div id="output" class="mono"></div>
+      <div id="ragList" class="rag-list"></div>
+      <div id="heat" style="margin-top:10px"></div>
+    </div>
+
+    <div class="footer-note">UI demo only. Backend endpoint: <span class="mono">POST /analyze</span></div>
+  </div>
+
+  <div class="card">
+    <h2>2) Options</h2>
+    <div class="opt-row">
+      <label class="opt">
+        <input id="useRag" type="checkbox" checked>
+        <div>
+          <div style="font-weight:600">Use RAG</div>
+          <div class="muted">Retrieve domain knowledge for explanation & references.</div>
+        </div>
+      </label>
+      <div class="field">
+        <div style="width:110px" class="muted">RAG mode</div>
+        <select id="ragMode">
+          <option value="auto" selected>Auto</option>
+          <option value="adaptive">Adaptive</option>
+          <option value="always">Always</option>
+          <option value="question_only">Question only</option>
+        </select>
+        <span class="muted" style="font-size:11px" title="RAG when: real question or classifier confidence ≥ 0.60">Adaptive: سؤال أو ثقة</span>
+      </div>
+
+      <label class="opt">
+        <input id="advReport" type="checkbox">
+        <div>
+          <div style="font-weight:600">Advanced Report</div>
+          <div class="muted">Include Grad-CAM heatmap and structured summary.</div>
+        </div>
+      </label>
+
+      <div class="field">
+        <div style="width:110px" class="muted">Confidence Threshold</div>
+        <input id="thresh" type="number" step="0.01" value="0.60">
+      </div>
+
+      <button id="analyzeBtn" class="analyze" disabled>Analyze Image</button>
+      <div id="status" class="muted"></div>
+      <div class="footer-note">Select an image to enable analysis.</div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script defer src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,685 @@
+[
+  {
+    "ts": "2026-04-21T04:17:25",
+    "case_id": "2026-04-21-041725-d3d5",
+    "filename": "0025.jpg",
+    "label": "healthy",
+    "confidence": 0.9997816681861877,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-04-21T03:34:10",
+    "case_id": "2026-04-21-033410-f593",
+    "filename": "0015.jpg",
+    "label": "healthy",
+    "confidence": 0.998526930809021,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-04-18T15:08:54",
+    "case_id": "2026-04-18-150854-31c7",
+    "filename": "0008.jpg",
+    "label": "healthy",
+    "confidence": 0.9983526468276978,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-26T19:46:34",
+    "case_id": "2026-03-26-194634-1410",
+    "filename": "image(30).jpg",
+    "label": "pituitary",
+    "confidence": 0.9983944296836853,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "pituitary.txt",
+        "chunk_id": 5,
+        "score": 0.838
+      },
+      {
+        "source": "pituitary.txt",
+        "chunk_id": 0,
+        "score": 0.805
+      },
+      {
+        "source": "pituitary.txt",
+        "chunk_id": 1,
+        "score": 0.79
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.772
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-04T13:16:22",
+    "case_id": "2026-03-04-131622-9125",
+    "filename": "image(13).jpg",
+    "label": "healthy",
+    "confidence": 0.9916998147964478,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.783
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.778
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.772
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.761
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-04T13:14:13",
+    "case_id": "2026-03-04-131413-2922",
+    "filename": "image(19).jpg",
+    "label": "meningioma",
+    "confidence": 0.9999829530715942,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-04T12:17:43",
+    "case_id": "2026-03-04-121743-32f8",
+    "filename": "image(14).jpg",
+    "label": "healthy",
+    "confidence": 0.8288750648498535,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.783
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.777
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.774
+      },
+      {
+        "source": "no_tumor.txt",
+        "chunk_id": 10,
+        "score": 0.767
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-04T09:49:34",
+    "case_id": "2026-03-04-094934-f6b2",
+    "filename": "image(10).jpg",
+    "label": "healthy",
+    "confidence": 0.9381139874458313,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.777
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.775
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.76
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-03T22:22:48",
+    "case_id": "2026-03-03-222248-2772",
+    "filename": "image(13).jpg",
+    "label": "healthy",
+    "confidence": 0.9916998147964478,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.783
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.778
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.772
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.761
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-03-02T00:10:08",
+    "case_id": "2026-03-02-001008-5ac6",
+    "filename": "image(7).jpg",
+    "label": "meningioma",
+    "confidence": 0.9999849796295166,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-02-21T01:26:12",
+    "case_id": "2026-02-21-012612-2fb1",
+    "filename": "image(1).jpg",
+    "label": "glioma",
+    "confidence": 0.9564820528030396,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.803
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.794
+      },
+      {
+        "source": "glioma.txt",
+        "chunk_id": 16,
+        "score": 0.788
+      },
+      {
+        "source": "t1_mri.txt",
+        "chunk_id": 4,
+        "score": 0.787
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-02-21T01:25:43",
+    "case_id": "2026-02-21-012543-8db4",
+    "filename": "0001.jpg",
+    "label": "healthy",
+    "confidence": 0.9999812841415405,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-02-03T23:34:17",
+    "case_id": "2026-02-03-233417-3d27",
+    "filename": "0000.jpg",
+    "label": "healthy",
+    "confidence": 0.9999890327453613,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-31T21:58:49",
+    "case_id": "2026-01-31-215849-0107",
+    "filename": "image(14).jpg",
+    "label": "meningioma",
+    "confidence": 0.9999409914016724,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.815
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.812
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.802
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 23,
+        "score": 0.788
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-30T06:07:09",
+    "case_id": "2026-01-30-060709-c7d4",
+    "filename": "image(12).jpg",
+    "label": "meningioma",
+    "confidence": 0.9999966621398926,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-30T02:55:04",
+    "case_id": "2026-01-30-025504-31c5",
+    "filename": "image(39).jpg",
+    "label": "meningioma",
+    "confidence": 0.9999957084655762,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-28T21:14:02",
+    "case_id": "2026-01-28-211402-0fa8",
+    "filename": "image(16).jpg",
+    "label": "meningioma",
+    "confidence": 0.9841429591178894,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.807
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.801
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.796
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-28T21:13:38",
+    "case_id": "2026-01-28-211338-3c6a",
+    "filename": "0000.jpg",
+    "label": "healthy",
+    "confidence": 0.9999890327453613,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.781
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 0,
+        "score": 0.773
+      },
+      {
+        "source": "t2_mri.txt",
+        "chunk_id": 0,
+        "score": 0.771
+      },
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 2,
+        "score": 0.758
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-27T20:55:44",
+    "case_id": "2026-01-27-205544-cba1",
+    "filename": "dataset-thumbnail.png",
+    "label": "meningioma",
+    "confidence": 0.9999693632125854,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-27T20:55:02",
+    "case_id": "2026-01-27-205502-c217",
+    "filename": "dataset-thumbnail.png",
+    "label": "meningioma",
+    "confidence": 0.9999693632125854,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-27T19:31:34",
+    "case_id": "2026-01-27-193134-1d29",
+    "filename": "dataset-thumbnail.png",
+    "label": "meningioma",
+    "confidence": 0.9999693632125854,
+    "text_preview": "Findings:",
+    "rag_used": false,
+    "rag_sources": [],
+    "adv_enabled": true
+  },
+  {
+    "ts": "2026-01-27T19:31:11",
+    "case_id": "2026-01-27-193111-6857",
+    "filename": "dataset-thumbnail.png",
+    "label": "meningioma",
+    "confidence": 0.9999693632125854,
+    "text_preview": "Findings:",
+    "rag_used": true,
+    "rag_sources": [
+      {
+        "source": "flair_mri.txt",
+        "chunk_id": 3,
+        "score": 0.805
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 24,
+        "score": 0.804
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 12,
+        "score": 0.797
+      },
+      {
+        "source": "meningioma.txt",
+        "chunk_id": 0,
+        "score": 0.79
+      }
+    ],
+    "adv_enabled": true
+  }
+]

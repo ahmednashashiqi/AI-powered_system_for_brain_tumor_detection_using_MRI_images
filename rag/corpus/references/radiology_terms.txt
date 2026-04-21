@@ -1,0 +1,45 @@
+[ID] ref.radiology_terms.v1
+[TITLE] Standardized Radiology Terminology and Keywords
+[SOURCE] RSNA RadLex v3.28; ACR RADS; WHO CNS Tumor Classification
+[TAGS] radiology, terminology, MRI, lesion, brain, anatomy, pathology
+[LANG] en
+
+### General Terminology
+- Lesion: Any abnormal tissue region (neutral term, not always malignant).
+- Mass: Space-occupying lesion, may exert mass effect.
+- Signal intensity: Relative brightness on MRI (T1/T2).
+- Enhancement: Contrast uptake after gadolinium injection.
+- Edema: Increased water content, hyperintense on T2/FLAIR.
+- Necrosis: Non-viable tissue, often central hypointensity.
+- Calcification: SWI or CT hyperdensity.
+- Diffusion restriction: Bright on DWI, dark on ADC.
+- Hemorrhage: Blooming on SWI.
+
+### Anatomical Landmarks
+- Sellar region → pituitary gland location.  
+- Suprasellar cistern → above pituitary, near optic chiasm.  
+- Convexity → outer brain surface where meningiomas often attach.  
+- Periventricular region → near ventricles (gliomas, demyelination).  
+- Corpus callosum → interhemispheric spread (common in glioblastoma).
+
+### Tumor Descriptive Phrases
+- “Dural-based enhancing lesion” → meningioma.  
+- “Ring-enhancing lesion with central necrosis” → glioblastoma.  
+- “Homogeneously enhancing sellar mass” → pituitary adenoma.  
+- “No abnormal enhancement or mass effect” → normal MRI.
+
+### Standard Report Vocabulary
+- Findings: Objective image description.  
+- Impression: Diagnostic summary.  
+- Correlate clinically: standard closing phrase.  
+- Follow-up MRI recommended: used for longitudinal cases.
+
+### Abbreviations
+MRI – Magnetic Resonance Imaging  
+FLAIR – Fluid Attenuated Inversion Recovery  
+DWI – Diffusion Weighted Imaging  
+ADC – Apparent Diffusion Coefficient  
+SWI – Susceptibility Weighted Imaging  
+CE – Contrast-Enhanced  
+WHO – World Health Organization  
+ROI – Region of Interest  

@@ -1,0 +1,50 @@
+[ID] brain.normal.v1
+[TITLE] Normal Brain MRI Appearance and Reference Features
+[SOURCE] Radiopaedia MRI Brain Atlas (2023); Naidich et al., Imaging of the Brain, 2022
+[TAGS] no_tumor, normal, brain, MRI, T1, T2, FLAIR, DWI, anatomy
+[LANG] en
+
+---
+
+A normal brain MRI shows well-preserved anatomy, symmetric hemispheres, and no evidence of mass effect, edema, or abnormal enhancement. 
+The ventricles, sulci, and cisterns should appear age-appropriate and symmetric. 
+No midline shift or compression of adjacent structures should be seen.
+
+On **T1-weighted images**, gray matter appears slightly darker than white matter. 
+Cerebrospinal fluid (CSF) appears dark (hypointense). 
+Cortical ribboning and sulcal patterns should be clearly defined. 
+Basal ganglia and thalami appear intermediate in signal, and no abnormal bright or dark foci should be seen.
+
+On **T2-weighted images**, the CSF is bright (hyperintense), white matter is relatively darker, and gray matter slightly brighter. 
+Normal vessels may show flow voids (black tubular structures) due to fast-flowing blood — this is not pathology. 
+There should be no areas of abnormal hyperintensity in white matter or cortex.
+
+On **FLAIR sequences**, CSF signal is suppressed (dark), while brain parenchyma appears intermediate. 
+No abnormal bright signal should appear in the periventricular, subcortical, or cortical regions. 
+If faint hyperintensity is seen in the deep white matter of elderly patients, it usually represents age-related microvascular changes, not a tumor.
+
+On **DWI and ADC maps**, diffusion should be symmetric bilaterally with no regions of restricted diffusion. 
+Restricted diffusion usually indicates pathology such as acute infarction, abscess, or high-cellularity tumor.
+
+After **contrast injection (T1 post-gadolinium)**, there should be no abnormal enhancement in the brain parenchyma or meninges. 
+Normal enhancement may be seen in choroid plexus, pituitary gland, venous sinuses, and dural reflections.
+
+**Key normal anatomical landmarks**:
+- Ventricles: normal size, no dilation or effacement.
+- Corpus callosum: intact and well-formed.
+- Basal ganglia: symmetric, no abnormal signal.
+- Brainstem and cerebellum: normal morphology and intensity.
+- No extra-axial collection or mass lesion.
+
+**Common normal variants**:
+- Mild asymmetry of sulci or ventricles (physiological).
+- Prominent perivascular (Virchow–Robin) spaces.
+- Small arachnoid granulations along the superior sagittal sinus.
+- Cavum septi pellucidi or cavum vergae (benign developmental variants).
+
+**Summary interpretation for AI/RAG use:**
+If the MRI shows normal signal intensity on all sequences (T1, T2, FLAIR), with symmetric structures, no mass, no edema, and no abnormal enhancement — 
+the image should be classified as **no_tumor** or **normal brain**.
+
+**Keywords for retrieval:**
+normal brain MRI, no mass, symmetric ventricles, no enhancement, no edema, normal anatomy, no tumor detected.

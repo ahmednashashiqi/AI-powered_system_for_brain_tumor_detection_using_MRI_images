@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div style="max-width:480px;margin:8vh auto;">
+  <div class="card" style="text-align:center">
+    <h2>Sign in</h2>
+
+    <div class="opt-row" style="margin-top:8px">
+      <!-- Email / Password -->
+      <input id="email" type="email" placeholder="Email address">
+      <input id="password" type="password" placeholder="Password">
+      <button id="login"  class="btn primary">Login</button>
+      <button id="signup" class="btn">Create Account</button>
+    </div>
+
+    <div class="opt-row" style="margin-top:18px">
+      <!-- Google -->
+      <button id="google" class="btn">Sign in with Google</button>
+    </div>
+
+    <hr style="border:none;border-top:1px solid var(--border,#1f2937);margin:18px 0">
+
+    <!-- Phone (SMS) -->
+    <div class="opt-row">
+      <input id="phone" type="tel" placeholder="Phone number (e.g., 05XXXXXXXX or +9665XXXXXXXX)">
+      <div class="field" style="gap:12px">
+        <button id="sendOtp" class="btn" style="flex:1">Send OTP</button>
+        <span class="muted" style="flex:1;text-align:right">reCAPTCHA may appear</span>
+      </div>
+
+      <div id="otpBox" style="display:none">
+        <input id="otp" type="text" inputmode="numeric" placeholder="Enter OTP code">
+        <button id="verifyOtp" class="btn primary">Verify & Sign in</button>
+      </div>
+
+      <!-- reCAPTCHA container (visible/invisible depending on JS settings) -->
+      <div id="recaptcha-container" style="margin-top:8px"></div>
+    </div>
+
+    <div id="msg" class="muted" style="min-height:20px;margin-top:12px"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script type="module" src="{{ url_for('static', filename='js/auth.js', v=7) }}"></script>
+{% endblock %}

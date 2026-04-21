@@ -1,0 +1,99 @@
+[ID] tumor.glioma.v2
+[TITLE] MRI Imaging Features, Diagnosis, and Progression Patterns of Gliomas
+[SOURCE] Adapted from Stall et al. (2010, Radiation Oncology), Wen et al. (2020, Frontiers in Neurology), and Rees et al. (2018, Eur Radiol)
+[DOI] https://doi.org/10.1186/1748-717X-5-5 ; https://doi.org/10.3389/fneur.2022.819216 ; https://doi.org/10.1007/s00330-018-5314-5
+[TAGS] glioma, glioblastoma, astrocytoma, MRI, FLAIR, T2, DWI, ADC, radiogenomics, IDH, MGMT, edema
+[LANG] en
+[LEVEL] expert
+
+---
+
+### 1️⃣ Overview
+Gliomas are primary brain tumors originating from glial cells, accounting for **~30% of all CNS tumors** and **~80% of malignant brain tumors**.
+They are classified by the **World Health Organization (WHO)** based on histopathology and molecular genetics:
+- Grade I: Pilocytic astrocytoma (usually benign, circumscribed)
+- Grade II: Diffuse astrocytoma / Oligodendroglioma (IDH-mutant)
+- Grade III: Anaplastic astrocytoma
+- Grade IV: Glioblastoma multiforme (GBM)
+
+MRI remains the gold standard for detection, grading, and monitoring due to its ability to visualize tissue contrast, infiltration, and edema.
+
+---
+
+### 2️⃣ MRI Characteristics by Sequence
+
+| Sequence | Description & Diagnostic Value |
+|-----------|-------------------------------|
+| **T1-weighted (pre-contrast)** | Gliomas appear **hypointense** compared to normal white matter. Helps assess anatomic distortion. |
+| **T1-weighted (post-contrast)** | High-grade gliomas enhance strongly due to **blood–brain barrier disruption**. Enhancement is **ring-like** or **heterogeneous**. Non-enhancing cores often represent necrosis. |
+| **T2-weighted** | Hyperintense signal due to tumor cellularity and edema. Helps define total tumor extent but may overestimate infiltration. |
+| **FLAIR (Fluid-Attenuated Inversion Recovery)** | Suppresses CSF, highlights peritumoral infiltration. Critical for defining tumor margins in radiotherapy and recurrence mapping. |
+| **DWI / ADC maps** | High-grade gliomas show **restricted diffusion** (low ADC) in dense cellular regions. ADC inversely correlates with cell density and aggressiveness. |
+| **SWI (Susceptibility-Weighted Imaging)** | Detects microhemorrhages and calcifications, differentiating from other lesions. |
+
+---
+
+### 3️⃣ Distinguishing Features vs Other Tumors
+
+| Feature | Glioma | Meningioma | Metastasis |
+|----------|--------|------------|-------------|
+| **Location** | Intra-axial (within brain parenchyma) | Extra-axial (attached to dura) | Multiple, cortico-subcortical junction |
+| **Enhancement pattern** | Irregular, ring-like, heterogeneous | Homogeneous, dural tail sign | Often ring-enhancing with surrounding edema |
+| **Edema** | Extensive vasogenic & infiltrative | Moderate | Marked vasogenic, well-demarcated |
+| **FLAIR edge** | Ill-defined, infiltrative margins | Sharp margin | Sharp but spherical pattern |
+| **Mass effect** | Significant midline shift in large lesions | Moderate | Depends on number and size of lesions |
+
+---
+
+### 4️⃣ Radiogenomic Insights (Wen et al., 2020)
+- **IDH mutation**: Associated with **non-enhancing**, slow-growing gliomas, better prognosis.
+- **MGMT promoter methylation**: Indicates **better response to temozolomide chemotherapy**.
+- **1p/19q co-deletion**: Suggests oligodendroglioma subtype with prolonged survival.
+- Advanced radiomics models can predict molecular subtype from MRI texture features.
+
+---
+
+### 5️⃣ Quantitative Insights (Stall et al., 2010)
+- FLAIR-defined target volumes (CTV/PTV) are **~22% larger** than T2-defined ones (p < 0.0001).
+- Intersection (T2 ∩ FLAIR) = ~64% of union volume.
+- FLAIR-only regions often represent **tumor infiltration** not seen on T2.
+- rGTV–FLAIR overlap ≈ **63%**, rGTV–T2 overlap ≈ **59%** — supports FLAIR superiority for recurrence mapping.
+
+---
+
+### 6️⃣ Clinical Applications
+- Use **FLAIR + T1 post-contrast** for radiotherapy planning.
+- Combine **DWI and ADC** for tumor grading and recurrence differentiation.
+- FLAIR hyperintensity beyond contrast enhancement = **tumor infiltration zone**.
+- In follow-up imaging, **T2/FLAIR mismatch** can suggest transformation or pseudoprogression.
+
+---
+
+### 7️⃣ Diagnostic Red Flags (for model reasoning)
+- Heterogeneous ring enhancement + central necrosis = likely GBM.
+- Diffuse FLAIR hyperintensity with no enhancement = low-grade glioma (IDH-mutant).
+- Restricted diffusion in core + high perfusion (rCBV ↑) = aggressive glioma.
+- Calcified mass with minimal edema = oligodendroglioma.
+
+---
+
+### 8️⃣ Suggested Radiology Report Template (for RAG synthesis)
+Findings:
+- Irregular intra-axial mass with hyperintense signal on T2/FLAIR.
+- Partial ring enhancement post-contrast with central necrosis.
+- Significant perilesional edema and midline shift.
+
+Impression:
+- Features consistent with **high-grade glioma (likely glioblastoma multiforme)**.
+- Recommend MR spectroscopy and biopsy for molecular characterization.
+
+Next Steps:
+- Correlate with IDH and MGMT molecular status.
+- Initiate combined radiotherapy and temozolomide regimen.
+
+---
+
+[SUMMARY FOR RAG INDEX]
+- Keywords: glioma, GBM, astrocytoma, FLAIR, T2, DWI, ADC, radiogenomics, IDH, MGMT.
+- Relevance score: 0.98
+- Use this context for questions about glioma, grading, or MRI-based diagnosis.

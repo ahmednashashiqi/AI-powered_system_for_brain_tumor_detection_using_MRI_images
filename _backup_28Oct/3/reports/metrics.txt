@@ -1,0 +1,14 @@
+TEST acc=0.9897 loss=0.0260
+
+              precision    recall  f1-score   support
+
+      glioma     1.0000    1.0000    1.0000       254
+     healthy     0.9990    0.9860    0.9925      2000
+  meningioma     0.9967    1.0000    0.9984       306
+     notumor     0.8313    0.9857    0.9020       140
+   pituitary     1.0000    0.9967    0.9983       300
+
+    accuracy                         0.9897      3000
+   macro avg     0.9654    0.9937    0.9782      3000
+weighted avg     0.9911    0.9897    0.9901      3000
+

@@ -1,0 +1,39 @@
+[ID] explain.deepseek_overview.v1
+[TITLE] DeepSeek-VL2: Vision-Language Model Architecture and Interpretability
+[SOURCE] DeepSeek-AI Whitepaper (2025)
+[TAGS] deepseek, vision-language, transformer, explainability, multimodal, attention
+[LANG] en
+
+### Overview
+DeepSeek-VL2 is a multimodal large language model (VLM) combining visual perception and text reasoning in a unified transformer framework.  
+It interprets medical images and generates contextual explanations using a **dual-stream encoder** and **causal language decoder**.
+
+### Architecture
+- **Vision Encoder:** Converts image patches into embeddings using a Vision Transformer (ViT).  
+- **Language Decoder:** Text reasoning engine trained with next-token prediction.  
+- **Cross-Attention Layers:** Enable alignment between visual and textual tokens, allowing the model to “attend” to image regions relevant to the question or diagnosis.
+
+### Key Features
+1. **Hierarchical Attention:** Multi-scale patch embeddings capture both global and local context.  
+2. **Prompt Conditioning:** Accepts textual prompts (“Describe lesion type”) integrated with image embeddings.  
+3. **Context Fusion:** Combines retrieved RAG knowledge (e.g., glioma.txt) into its reasoning chain.  
+4. **Token Attribution:** Each output token can be traced back to specific visual attention weights — a foundation for explainability.
+
+### Interpretability Mechanisms
+- **Attention Heatmaps:** Highlight image regions most influential to predictions.  
+- **Text Attribution:** The model indicates which words in the prompt had strongest contextual weight.  
+- **Contrastive Reasoning:** Uses positive and negative examples to justify classification (e.g., “Unlike pituitary, this lesion lacks suprasellar extension.”)
+
+### Applications in Medicine
+- MRI anomaly description  
+- Radiology report summarization  
+- Visual reasoning (“What indicates malignancy here?”)  
+- Confidence-based triage (high vs low diagnostic certainty)
+
+### Limitations
+- Relies on visual token resolution (typically 224×224).  
+- May overfit to texture if fine-tuning data are limited.  
+- Sensitive to non-medical input noise.
+
+### Summary
+DeepSeek-VL2 bridges the gap between computer vision and clinical interpretation by integrating **transformer-based explainability** with **retrieval-augmented generation (RAG)**, making it suitable for MRI analysis, medical education, and automated reporting.

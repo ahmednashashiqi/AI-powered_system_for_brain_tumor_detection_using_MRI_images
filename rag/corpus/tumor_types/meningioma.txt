@@ -1,0 +1,125 @@
+[ID] tumor.meningioma.v2
+[TITLE] Modern Understanding and MRI Characterization of Meningiomas
+[SOURCE] Wang et al., "International Consortium on Meningiomas Consensus Review", Neuro-Oncology, 2024; Kasuya et al., "Clinical and Radiological Features Related to Growth Potential of Meningioma", Neurosurg Rev, 2006
+[DOI] https://doi.org/10.1093/neuonc/noae082 ; https://doi.org/10.1007/s10143-006-0039-3
+[TAGS] meningioma, MRI, NF2, TERT, Ki-67, FLAIR, dural tail, calcification, convexity, skull base, hormone receptors, tumor grade, radiogenomics
+[LANG] en
+[LEVEL] expert
+
+---
+
+### 1️⃣ Overview
+Meningiomas are the **most common primary intracranial tumors** in adults, accounting for ~41% of all brain tumors and ~56% of non-malignant ones.  
+While **most are WHO grade I** (benign, slow-growing), about **18% are grade II** (atypical) and **1–2% grade III** (anaplastic or malignant).  
+Incidence increases sharply with age and is **2.3× more common in females** due to hormonal influences.
+
+---
+
+### 2️⃣ Epidemiology & Risk Factors
+- **Incidence**: 9.7 per 100,000 in the U.S. (CBTRUS 2023).  
+- **Sex**: Female predominance, especially ages 35–60.  
+- **Hormonal factors**: Meningiomas express **progesterone receptors**; growth may accelerate in pregnancy or HRT users.  
+- **Radiation exposure**: Most validated environmental risk — linear correlation between childhood cranial irradiation dose and later meningioma formation.  
+- **Genetic predispositions**: Germline NF2, SMARCE1, or BAP1 mutations increase risk; MLLT10 variants linked to higher susceptibility (estrogen-mediated).  
+- **Other associations**: High BMI, methotrexate therapy, and smoking (in men) modestly increase risk.
+
+---
+
+### 3️⃣ Molecular Pathogenesis
+**NF2 gene loss (22q12.2)** is the most frequent alteration (up to 60% of cases) — leading to loss of Merlin and dysregulation of Hippo/YAP and PI3K/Akt/mTOR pathways:contentReference[oaicite:0]{index=0}.  
+Other key recurrent mutations:
+
+| Gene | Location | Pathway / Function | Typical Location | Behavior |
+|------|-----------|-------------------|------------------|-----------|
+| NF2 | 22q12 | Tumor suppressor (Merlin) | Convexity, parasagittal | Aggressive, high-grade |
+| TRAF7 + KLF4 | 16p / 9q | Transcription, TNF signaling | Skull base | Benign (grade I) |
+| AKT1 / PIK3CA | 14q / 3q | PI3K/AKT/mTOR | Anterior skull base | Intermediate growth |
+| SMO / SUFU | 7q / 10q | Hedgehog signaling | Olfactory groove | Benign |
+| BAP1 | 3p21 | DNA repair | Any | Rhabdoid, grade III |
+| TERT promoter | 5p15 | Telomere maintenance | Variable | Malignant, poor prognosis |
+
+**TERT promoter mutations** independently define WHO grade III lesions due to their impact on survival (<25% 10-year OS).  
+Epigenetic profiling (DNA methylation) now outperforms histology in predicting recurrence and aggressiveness:contentReference[oaicite:1]{index=1}.
+
+---
+
+### 4️⃣ MRI Imaging Characteristics
+**Typical MRI signs:**
+- **Location:** Extra-axial, dural-based lesion with a broad attachment.  
+- **T1-weighted:** Iso- to hypointense; vivid homogeneous enhancement post-gadolinium.  
+- **T2-weighted:** Iso- to hyperintense; edema variable (more in atypical meningiomas).  
+- **FLAIR:** Highlights peritumoral edema and reactive gliosis.  
+- **Dural tail sign:** Linear enhancement tapering away from the tumor, seen in ~60% of cases.  
+- **Calcification:** Appears hypointense on T2; more common in slow-growing types.  
+- **Perfusion MRI:** High relative CBV (rCBV↑) suggests higher grade.  
+- **MR Spectroscopy:** Elevated **alanine peak (1.47 ppm)** and **reduced NAA** typical for meningiomas.
+
+---
+
+### 5️⃣ Growth Dynamics & MIB-1 (Ki-67) Index
+Study of **342 patients** (Kasuya et al., 2006):  
+Independent predictors of high proliferative potential (MIB-1 ≥3%):
+- Male sex (OR 2.37, p=0.003)  
+- Tumor recurrence (OR 7.57, p<0.001)  
+- Non-skull base location  
+- Absence of calcification  
+Mean doubling time: **<2 years** when MIB-1 ≥3%.  
+MIB-1 index correlates strongly with recurrence and WHO grade (Grade I <3%, Grade II 3–7%, Grade III >10%):contentReference[oaicite:2]{index=2}.
+
+---
+
+### 6️⃣ Differential Diagnosis
+| Feature | Meningioma | Glioma | Metastasis |
+|----------|-------------|--------|-------------|
+| Location | Extra-axial (dural-based) | Intra-axial | Cortical/subcortical |
+| Enhancement | Homogeneous, dural tail | Heterogeneous | Ring-like, multiple |
+| Edema | Moderate to severe | Often infiltrative | Prominent vasogenic |
+| Diffusion | Restricted peripherally | Core restricted | Variable |
+| Spectroscopy | Alanine ↑, NAA ↓ | Cho ↑, NAA ↓ | Lipid/lactate ↑ |
+
+---
+
+### 7️⃣ Clinical Course and Management
+- **Surgery**: First-line therapy; Simpson grade I resection (complete + dural margin) minimizes recurrence.  
+- **Radiotherapy**: Used for incomplete resections or grade II/III. Stereotactic radiosurgery (SRS) is effective for small residuals.  
+- **Systemic therapy**: Still experimental; trials on **VEGF, AKT, mTOR, and somatostatin analogs** ongoing.  
+- **Molecular markers** increasingly guide therapy selection. For example, **AKT1/PIK3CA-mutant** cases may benefit from PI3K inhibitors.
+
+---
+
+### 8️⃣ Prognostic Factors
+| Factor | Favorable | Unfavorable |
+|---------|------------|-------------|
+| Grade | I | II–III |
+| Ki-67 (MIB-1) | <3% | >7% |
+| Calcification | Present | Absent |
+| Edema | Minimal | Marked |
+| Location | Skull base | Convexity / parasagittal |
+| TERT mutation | Negative | Positive |
+| NF2 mutation | None | Present |
+| Gender | Female | Male |
+
+Ten-year relative survival:
+- Grade I: **83–90%**  
+- Grade II: **55–65%**  
+- Grade III: **14–25%**
+
+---
+
+### 9️⃣ Example Diagnostic Report (for RAG)
+Findings:
+- Extra-axial dural-based lesion in left sphenoid ridge.
+- Isointense on T1, hyperintense on T2/FLAIR, with homogeneous enhancement and dural tail.
+- Moderate peritumoral edema without invasion into brain parenchyma.
+
+Impression:
+- Likely **WHO grade I meningioma**.  
+- Recommend observation or surgical excision if symptomatic.  
+- Assess Ki-67 index and NF2 status if resected.
+
+---
+
+[SUMMARY FOR RAG INDEX]
+Keywords: meningioma, NF2, TRAF7, TERT, MRI, FLAIR, dural tail, skull base, calcification, MIB-1, Ki-67, radiogenomics.  
+Relevance score: 0.98  
+Recommended use: retrieval for any MRI finding of extra-axial enhancing mass, or classifier label “meningioma”.

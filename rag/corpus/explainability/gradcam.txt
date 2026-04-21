@@ -1,0 +1,54 @@
+[ID] explain.gradcam.v1
+[TITLE] Gradient-weighted Class Activation Mapping (Grad-CAM)
+[SOURCE] Selvaraju et al., ICCV 2017; Applied to Medical Imaging (2021–2025)
+[TAGS] gradcam, heatmap, explainability, visualization, CNN, saliency, deep learning
+[LANG] en
+
+### Concept
+Grad-CAM (Gradient-weighted Class Activation Mapping) is an interpretability technique that visualizes **which parts of an image contribute most** to the model’s decision.  
+It uses the gradients flowing into the final convolutional layer to produce a **class-specific heatmap**.
+
+### Algorithm
+1. Perform forward pass to get model predictions.  
+2. Compute gradients of the target class score with respect to feature maps.  
+3. Global-average pool these gradients to obtain importance weights.  
+4. Multiply weights by feature maps and sum them up.  
+5. Apply ReLU to keep only positive influences and overlay on the original image.
+
+### Mathematical Formula
+Lᶜ₍Grad-CAM₎ = ReLU( Σₖ αₖᶜ Aₖ )
+where  
+- `Aₖ` = activation map from k-th feature channel  
+- `αₖᶜ` = average gradient of class c with respect to Aₖ
+
+### Use in MRI Analysis
+Grad-CAM highlights regions such as:
+- Tumor core and enhancing rim  
+- Edema regions on FLAIR  
+- Dural attachments for meningioma  
+- Sellar region for pituitary adenoma  
+
+These heatmaps help clinicians confirm if the AI focuses on **clinically relevant structures** rather than noise.
+
+### Visualization Workflow
+1. Convert MRI to tensor → Pass through model.  
+2. Compute Grad-CAM → Generate heatmap (colorized).  
+3. Overlay heatmap onto original image (alpha=0.5).  
+4. Display or store as base64 for web dashboard.
+
+### Limitations
+- Coarse resolution (due to final conv layers).  
+- Sensitive to ReLU threshold.  
+- Not suitable for non-CNN transformers directly (use attention maps instead).
+
+### Example Output
+Lesion focus: left temporal lobe
+Activation peak: (x=180, y=135)
+Interpretation: Grad-CAM confirms strong correlation between tumor margin and predicted class.
+
+### Integration
+Used in:
+- Flask backend (`gradcam.py`)  
+- Advanced report section ("Include Grad-CAM heatmap")  
+- Supports both EfficientNet and custom CNN classifiers
+

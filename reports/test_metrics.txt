@@ -1,0 +1,32 @@
+============================================================
+Brain Tumor Classifier — Test Set Evaluation
+============================================================
+
+Model: C:\Users\Ahmed\Desktop\KRJAM\outputs\best_model.pth
+Test set: C:\Users\Ahmed\Desktop\KRJAM\dataset\Testing
+Total test images: 562
+Model classes: glioma, healthy, meningioma, notumor, pituitary
+Test classes found: glioma, healthy, meningioma, notumor, pituitary
+
+Overall Accuracy: 0.6512 (65.12%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      glioma     1.0000    0.2700    0.4252       100
+     healthy     0.5597    0.9762    0.7115       168
+  meningioma     0.6534    1.0000    0.7904       115
+     notumor     0.4000    0.0381    0.0696       105
+   pituitary     1.0000    0.7568    0.8615        74
+
+    accuracy                         0.6512       562
+   macro avg     0.7226    0.6082    0.5716       562
+weighted avg     0.6854    0.6512    0.5765       562
+
+
+Confusion Matrix:
+[[ 27  22  49   2   0]
+ [  0 164   0   4   0]
+ [  0   0 115   0   0]
+ [  0 101   0   4   0]
+ [  0   6  12   0  56]]

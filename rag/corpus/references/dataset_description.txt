@@ -1,0 +1,34 @@
+[ID] ref.dataset_description.v1
+[TITLE] MRI Brain Tumor Dataset Description
+[SOURCE] Kaggle Brain Tumor MRI Dataset (Br35H, 2023); Figshare; TCIA Public MRI Archives
+[TAGS] dataset, MRI, glioma, meningioma, pituitary, no_tumor, preprocessing
+[LANG] en
+
+This dataset contains T1-weighted contrast-enhanced MRI brain scans grouped into four classes:
+1. Glioma
+2. Meningioma
+3. Pituitary tumor
+4. No tumor (normal brain)
+
+Each image is a 2D slice (512×512 pixels) from axial MRI sequences.  
+Typical contrast agent: Gadolinium-based (T1 CE).  
+Resolution: 0.5–1.0 mm isotropic voxel spacing.
+
+### Dataset Summary
+| Split | Percentage | Purpose |
+|--------|-------------|----------|
+| Training | 70% | Model learning |
+| Validation | 20% | Hyperparameter tuning |
+| Testing | 10% | Final performance |
+
+### Preprocessing Steps
+- Resized all images to (224×224).  
+- Normalized pixel intensity using ImageNet mean/std.  
+- Applied histogram equalization to enhance contrast.  
+- Converted DICOM (.dcm) files to PNG for model compatibility.  
+
+### Class Balancing
+Random sampling ensured approximately equal samples per class.
+For medical fairness, data were anonymized, removing DICOM metadata (Name, Institution, Patient ID).
+
+### Example Files

@@ -1,0 +1,957 @@
+[
+  {
+    "text": "[ID] anatomy.diffusion_adc.v1 [TITLE] Diffusion and ADC Mapping in Brain Tumor Imaging [SOURCE] EANO Clinical Imaging Protocols (2024) [TAGS] diffusion, ADC, MRI, glioma, necrosis, ischemia, perfusion [LANG] en ### Overview Diffusion MRI measures **microscopic water movement**. ADC maps translate this into quantitative diffusion metrics (cellularit",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "icroscopic water movement**. ADC maps translate this into quantitative diffusion metrics (cellularity indicator). ### Interpretation | Pattern | Possible Meaning | |----------|------------------| | Low ADC + High DWI | High cellularity (e.g., tumor or abscess) | | High ADC + Low DWI | Necrotic or cystic lesion | | Mixed ADC zones | Heterogeneous tu",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "r abscess) | | High ADC + Low DWI | Necrotic or cystic lesion | | Mixed ADC zones | Heterogeneous tumor with viable and necrotic parts | ### Clinical Applications - Differentiate high-grade vs low-grade gliomas. - Identify early tumor necrosis post-therapy. - Assess treatment response (ADC increase = response). - Distinguish abscess (restricted dif",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "herapy. - Assess treatment response (ADC increase = response). - Distinguish abscess (restricted diffusion) from tumor (variable). ### Quantitative Ranges (×10⁻³ mm²/s) | Tissue | ADC Range | |---------|------------| | Normal white matter | 0.8–0.9 | | Low-grade glioma | 1.2–1.5 | | High-grade glioma | 0.6–0.9 | | Necrotic center | 1.8–2.2 | ### Di",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "| Low-grade glioma | 1.2–1.5 | | High-grade glioma | 0.6–0.9 | | Necrotic center | 1.8–2.2 | ### Diagnostic Note ADC maps are critical for interpreting tumor **cellularity** and **aggressiveness**, especially when combined with T2/FLAIR and contrast imaging.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "imaging.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\diffusion_adc.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "[ID] anatomy.dwi_adc_swi.v1 [TITLE] Advanced MRI Sequences: DWI, ADC, and SWI [SOURCE] RSNA MRI Physics; ACR Neuroimaging Reference (2024) [TAGS] DWI, ADC, SWI, diffusion, hemorrhage, necrosis, tumor, MRI [LANG] en ### 1. DWI – Diffusion Weighted Imaging Measures water molecule motion within tissues. - **Restricted diffusion (bright)** → Hypercellu",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "ging Measures water molecule motion within tissues. - **Restricted diffusion (bright)** → Hypercellular tumors, abscess, acute stroke. - **Facilitated diffusion (dark)** → Necrosis or cystic areas. - Often paired with ADC map for confirmation. ### 2. ADC – Apparent Diffusion Coefficient Quantifies diffusion in numeric form (mm²/s). Used to differen",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "ADC – Apparent Diffusion Coefficient Quantifies diffusion in numeric form (mm²/s). Used to differentiate **tumor cellularity** or **ischemic lesions**. | Tissue | ADC Behavior | |---------|---------------| | High cellularity (tumor) | Low ADC | | Necrosis / cyst | High ADC | ### 3. SWI – Susceptibility Weighted Imaging Detects magnetic field inhom",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "crosis / cyst | High ADC | ### 3. SWI – Susceptibility Weighted Imaging Detects magnetic field inhomogeneities caused by **blood, calcium, or veins**. - **Blooming artifacts** = hemorrhage or calcification. - Useful for identifying tumor hemorrhage or post-surgical changes. ### Diagnostic Combination - **DWI + ADC:** Confirms necrotic vs viable tum",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "r post-surgical changes. ### Diagnostic Combination - **DWI + ADC:** Confirms necrotic vs viable tumor. - **SWI:** Detects hemorrhage in high-grade glioma or post-biopsy changes. - Together, these advanced sequences improve lesion characterization accuracy.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "curacy.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\dwi_adc_swi.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "[ID] anatomy.flair_mri.v1 [TITLE] FLAIR MRI Sequence: Fluid-Attenuated Inversion Recovery [SOURCE] RSNA FLAIR Atlas (2023) [TAGS] MRI, FLAIR, edema, tumor, lesion, CSF suppression [LANG] en ### Overview FLAIR (Fluid-Attenuated Inversion Recovery) is a **T2-weighted sequence** that suppresses pure fluid (CSF) signals. This allows subtle lesions near",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\flair_mri.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "a **T2-weighted sequence** that suppresses pure fluid (CSF) signals. This allows subtle lesions near ventricles or cortical sulci to be more visible. ### Appearance Summary | Tissue | FLAIR Appearance | |---------|------------------| | CSF | Dark (suppressed) | | Edema / Tumor | Bright | | White matter | Darker | | Gray matter | Intermediate | ###",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\flair_mri.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "ppressed) | | Edema / Tumor | Bright | | White matter | Darker | | Gray matter | Intermediate | ### Clinical Relevance - Highlights periventricular or cortical lesions that might be hidden on T2. - Excellent for identifying **tumor-associated edema**, **gliosis**, and **leukoencephalopathy**. ### Tumor Visualization - Gliomas: bright with poorly de",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\flair_mri.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": ", **gliosis**, and **leukoencephalopathy**. ### Tumor Visualization - Gliomas: bright with poorly defined borders. - Meningioma: may show peripheral FLAIR hyperintensity (mild edema). - Pituitary adenoma: typically isointense or mildly bright. ### Diagnostic Notes FLAIR = \"T2 minus CSF signal\". Best used for detecting **pathologic water** (edema, g",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\flair_mri.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "agnostic Notes FLAIR = \"T2 minus CSF signal\". Best used for detecting **pathologic water** (edema, gliosis) rather than pure CSF.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\flair_mri.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "[ID] anatomy.t1_mri.v1 [TITLE] T1-Weighted MRI Brain Anatomy and Interpretation [SOURCE] MRI Physics for Radiology (2024); RSNA MRI Atlas [TAGS] MRI, T1, brain, anatomy, contrast, tumor, radiology [LANG] en ### Overview T1-weighted MRI sequences provide **excellent anatomical detail** and are the baseline for structural evaluation. Fat appears brig",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t1_mri.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "ide **excellent anatomical detail** and are the baseline for structural evaluation. Fat appears bright (hyperintense), while fluids such as CSF appear dark (hypointense). ### Appearance Summary | Tissue | T1 Appearance | |---------|----------------| | White matter | Bright | | Gray matter | Intermediate | | CSF / Edema | Dark | | Fat / Bone marrow",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t1_mri.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "| White matter | Bright | | Gray matter | Intermediate | | CSF / Edema | Dark | | Fat / Bone marrow | Very bright | | Blood (subacute) | Bright | ### Clinical Relevance - Pre-contrast T1: Used to define normal anatomy. - Post-contrast T1 (T1 CE): Highlights regions with **blood-brain barrier disruption**, such as tumors, inflammation, or abscesses.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t1_mri.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "hlights regions with **blood-brain barrier disruption**, such as tumors, inflammation, or abscesses. ### Tumor Visualization - Enhancing ring → Glioblastoma or metastasis. - Homogeneous enhancement → Meningioma or pituitary adenoma. - No enhancement → Low-grade glioma. ### Diagnostic Notes T1 is ideal for identifying lesion **enhancement**, **fat c",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t1_mri.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "→ Low-grade glioma. ### Diagnostic Notes T1 is ideal for identifying lesion **enhancement**, **fat content**, and **hemorrhage** stages. Often paired with T2 and FLAIR for comprehensive evaluation.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t1_mri.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "[ID] anatomy.t2_mri.v1 [TITLE] T2-Weighted MRI Brain Anatomy and Interpretation [SOURCE] RSNA MRI Teaching Atlas; ACR Radiology Fundamentals (2024) [TAGS] MRI, T2, brain, anatomy, edema, tumor, radiology [LANG] en ### Overview T2-weighted images emphasize **water and fluid content**, making them critical for detecting **edema**, **inflammation**, a",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t2_mri.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "asize **water and fluid content**, making them critical for detecting **edema**, **inflammation**, and **necrosis**. Fluids appear bright, while fatty structures appear dark. ### Appearance Summary | Tissue | T2 Appearance | |---------|----------------| | CSF / Edema | Bright | | White matter | Dark | | Gray matter | Intermediate | | Fat | Dark | |",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t2_mri.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "--| | CSF / Edema | Bright | | White matter | Dark | | Gray matter | Intermediate | | Fat | Dark | | Calcification / Bone | Very dark | ### Clinical Relevance - High signal on T2 → Increased water content (edema, cystic changes). - Dark areas → Fibrosis, calcification, or hemorrhage. ### Tumor Visualization - Most brain tumors appear **hyperintense",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t2_mri.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "sis, calcification, or hemorrhage. ### Tumor Visualization - Most brain tumors appear **hyperintense on T2** due to surrounding edema. - Gliomas and metastases exhibit strong T2 brightness with variable margins. ### Diagnostic Notes T2 complements T1 by revealing the **extent of tumor-associated edema**. It’s essential for treatment planning and fo",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t2_mri.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "by revealing the **extent of tumor-associated edema**. It’s essential for treatment planning and follow-up imaging.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\anatomy\\t2_mri.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "# مثال لملف RAG جديد — Differential Diagnosis (التفاضل التشخيصي) # يمكنك نسخ هذا الملف وتعديله أو إضافة ملفات .txt أخرى في أي مجلد تحت corpus/ # بعد ذلك شغّل: python rag/build_index.py [TITLE] Short notes on differential diagnosis in brain MRI [TAGS] differential, glioma, meningioma, pituitary, metastasis, abscess, diagnosis --- When the image show",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\clinical\\differential_diagnosis.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "differential, glioma, meningioma, pituitary, metastasis, abscess, diagnosis --- When the image shows a ring-enhancing lesion, consider: high-grade glioma (GBM), metastasis, abscess, or demyelination. Clinical context and DWI/ADC help: abscess often shows restricted diffusion; tumor and metastasis are variable. When the lesion is extra-axial and du",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\clinical\\differential_diagnosis.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "shows restricted diffusion; tumor and metastasis are variable. When the lesion is extra-axial and dural-based with homogeneous enhancement, meningioma is a leading diagnosis. Consider metastasis or hemangiopericytoma if atypical. Sellar or suprasellar mass: think pituitary adenoma, craniopharyngioma, or meningioma. Pituitary adenomas often respect",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\clinical\\differential_diagnosis.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "r mass: think pituitary adenoma, craniopharyngioma, or meningioma. Pituitary adenomas often respect the diaphragm and show variable T2 signal. No mass, normal FLAIR and T2, no enhancement: supports no_tumor or normal variant. Always state \"correlate clinically\" when confidence is limited.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\clinical\\differential_diagnosis.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "clinically\" when confidence is limited.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\clinical\\differential_diagnosis.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "[ID] explain.deepseek_overview.v1 [TITLE] DeepSeek-VL2: Vision-Language Model Architecture and Interpretability [SOURCE] DeepSeek-AI Whitepaper (2025) [TAGS] deepseek, vision-language, transformer, explainability, multimodal, attention [LANG] en ### Overview DeepSeek-VL2 is a multimodal large language model (VLM) combining visual perception and tex",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "Overview DeepSeek-VL2 is a multimodal large language model (VLM) combining visual perception and text reasoning in a unified transformer framework. It interprets medical images and generates contextual explanations using a **dual-stream encoder** and **causal language decoder**. ### Architecture - **Vision Encoder:** Converts image patches into emb",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "**causal language decoder**. ### Architecture - **Vision Encoder:** Converts image patches into embeddings using a Vision Transformer (ViT). - **Language Decoder:** Text reasoning engine trained with next-token prediction. - **Cross-Attention Layers:** Enable alignment between visual and textual tokens, allowing the model to “attend” to image regi",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": ":** Enable alignment between visual and textual tokens, allowing the model to “attend” to image regions relevant to the question or diagnosis. ### Key Features 1. **Hierarchical Attention:** Multi-scale patch embeddings capture both global and local context. 2. **Prompt Conditioning:** Accepts textual prompts (“Describe lesion type”) integrated wit",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "context. 2. **Prompt Conditioning:** Accepts textual prompts (“Describe lesion type”) integrated with image embeddings. 3. **Context Fusion:** Combines retrieved RAG knowledge (e.g., glioma.txt) into its reasoning chain. 4. **Token Attribution:** Each output token can be traced back to specific visual attention weights — a foundation for explainabi",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "h output token can be traced back to specific visual attention weights — a foundation for explainability. ### Interpretability Mechanisms - **Attention Heatmaps:** Highlight image regions most influential to predictions. - **Text Attribution:** The model indicates which words in the prompt had strongest contextual weight. - **Contrastive Reasoning:",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "odel indicates which words in the prompt had strongest contextual weight. - **Contrastive Reasoning:** Uses positive and negative examples to justify classification (e.g., “Unlike pituitary, this lesion lacks suprasellar extension.”) ### Applications in Medicine - MRI anomaly description - Radiology report summarization - Visual reasoning (“What in",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "in Medicine - MRI anomaly description - Radiology report summarization - Visual reasoning (“What indicates malignancy here?”) - Confidence-based triage (high vs low diagnostic certainty) ### Limitations - Relies on visual token resolution (typically 224×224). - May overfit to texture if fine-tuning data are limited. - Sensitive to non-medical inpu",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "224×224). - May overfit to texture if fine-tuning data are limited. - Sensitive to non-medical input noise. ### Summary DeepSeek-VL2 bridges the gap between computer vision and clinical interpretation by integrating **transformer-based explainability** with **retrieval-augmented generation (RAG)**, making it suitable for MRI analysis, medical educ",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "y** with **retrieval-augmented generation (RAG)**, making it suitable for MRI analysis, medical education, and automated reporting.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\deepseek_overview.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "[ID] explain.gradcam.v1 [TITLE] Gradient-weighted Class Activation Mapping (Grad-CAM) [SOURCE] Selvaraju et al., ICCV 2017; Applied to Medical Imaging (2021–2025) [TAGS] gradcam, heatmap, explainability, visualization, CNN, saliency, deep learning [LANG] en ### Concept Grad-CAM (Gradient-weighted Class Activation Mapping) is an interpretability tec",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "ANG] en ### Concept Grad-CAM (Gradient-weighted Class Activation Mapping) is an interpretability technique that visualizes **which parts of an image contribute most** to the model’s decision. It uses the gradients flowing into the final convolutional layer to produce a **class-specific heatmap**. ### Algorithm 1. Perform forward pass to get model p",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "layer to produce a **class-specific heatmap**. ### Algorithm 1. Perform forward pass to get model predictions. 2. Compute gradients of the target class score with respect to feature maps. 3. Global-average pool these gradients to obtain importance weights. 4. Multiply weights by feature maps and sum them up. 5. Apply ReLU to keep only positive inf",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "eights. 4. Multiply weights by feature maps and sum them up. 5. Apply ReLU to keep only positive influences and overlay on the original image. ### Mathematical Formula Lᶜ₍Grad-CAM₎ = ReLU( Σₖ αₖᶜ Aₖ ) where - `Aₖ` = activation map from k-th feature channel - `αₖᶜ` = average gradient of class c with respect to Aₖ ### Use in MRI Analysis Grad-CAM hig",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "hannel - `αₖᶜ` = average gradient of class c with respect to Aₖ ### Use in MRI Analysis Grad-CAM highlights regions such as: - Tumor core and enhancing rim - Edema regions on FLAIR - Dural attachments for meningioma - Sellar region for pituitary adenoma These heatmaps help clinicians confirm if the AI focuses on **clinically relevant structures** r",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "oma These heatmaps help clinicians confirm if the AI focuses on **clinically relevant structures** rather than noise. ### Visualization Workflow 1. Convert MRI to tensor → Pass through model. 2. Compute Grad-CAM → Generate heatmap (colorized). 3. Overlay heatmap onto original image (alpha=0.5). 4. Display or store as base64 for web dashboard. ### L",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "rlay heatmap onto original image (alpha=0.5). 4. Display or store as base64 for web dashboard. ### Limitations - Coarse resolution (due to final conv layers). - Sensitive to ReLU threshold. - Not suitable for non-CNN transformers directly (use attention maps instead). ### Example Output Lesion focus: left temporal lobe Activation peak: (x=180, y=13",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "ion maps instead). ### Example Output Lesion focus: left temporal lobe Activation peak: (x=180, y=135) Interpretation: Grad-CAM confirms strong correlation between tumor margin and predicted class. ### Integration Used in: - Flask backend (`gradcam.py`) - Advanced report section (\"Include Grad-CAM heatmap\") - Supports both EfficientNet and custom C",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "y`) - Advanced report section (\"Include Grad-CAM heatmap\") - Supports both EfficientNet and custom CNN classifiers",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\gradcam.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "[ID] explain.xai_in_medicine.v1 [TITLE] Explainable AI (XAI) in Medical Imaging and Radiology [SOURCE] Samek et al., Nature Communications (2023); RSNA AI Explainability Task Force (2024) [TAGS] xai, explainability, radiology, interpretability, transparency, AI, ethics [LANG] en ### Overview Explainable AI (XAI) in medicine aims to make AI model de",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "parency, AI, ethics [LANG] en ### Overview Explainable AI (XAI) in medicine aims to make AI model decisions **transparent, interpretable, and clinically trustworthy**. In medical imaging, this ensures that radiologists understand *why* a model predicted a certain diagnosis — critical for safety and accountability. ### Core Principles 1. **Transpare",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "ted a certain diagnosis — critical for safety and accountability. ### Core Principles 1. **Transparency:** Provide visual or textual reasoning behind outputs. 2. **Faithfulness:** Explanations must accurately reflect the model’s true reasoning. 3. **Human-Centric Design:** Align with clinician workflows and terminology. 4. **Accountability:** Suppo",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "Human-Centric Design:** Align with clinician workflows and terminology. 4. **Accountability:** Support audit trails for AI decisions in patient care. ### Key Methods | Category | Examples | Use | |-----------|-----------|-----| | Saliency-based | Grad-CAM, Integrated Gradients | Highlight important pixels | | Attention-based | Transformer heatmaps",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "d-CAM, Integrated Gradients | Highlight important pixels | | Attention-based | Transformer heatmaps | Text-image relevance | | Concept-based | TCAV (Testing with Concept Activation Vectors) | Explain features like “dural tail” | | Example-based | Counterfactuals, Similar Cases | Explain via analogy | ### In Clinical MRI - Enhances trust in automate",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "nterfactuals, Similar Cases | Explain via analogy | ### In Clinical MRI - Enhances trust in automated diagnosis of gliomas, meningiomas, pituitary adenomas. - Enables *“explainable second opinion”* for radiologists. - Supports education and model debugging (verifying correct region focus). - Required by **EU AI Act (2025)** for clinical deployment.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "ugging (verifying correct region focus). - Required by **EU AI Act (2025)** for clinical deployment. ### Best Practices - Always pair model output with a visualization (Grad-CAM / Attention). - Use structured reporting language (\"Findings / Impression\"). - Include uncertainty estimates (“Confidence: High / Medium / Low”). - Store both heatmap and t",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "n\"). - Include uncertainty estimates (“Confidence: High / Medium / Low”). - Store both heatmap and text rationale in patient record. ### Limitations - Explanations ≠ correctness; they show focus, not truth. - Overinterpretation of visual maps can mislead untrained users. - Computational cost increases for high-resolution attention. ### Future Direc",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "lead untrained users. - Computational cost increases for high-resolution attention. ### Future Directions - **Multimodal XAI:** Integrating image + text reasoning layers. - **Causal Explainability:** Understanding not just *what* but *why*. - **Regulatory Standards:** RSNA-AI interpretability certification for medical software. ### Summary Explaina",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "atory Standards:** RSNA-AI interpretability certification for medical software. ### Summary Explainability in radiology is not optional — it’s a safety requirement. When combined with RAG and structured reporting, XAI enables **clinically reliable AI systems** that doctors can interpret, audit, and trust.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "systems** that doctors can interpret, audit, and trust.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\explainability\\xai_in_medicine.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "[ID] ref.dataset_description.v1 [TITLE] MRI Brain Tumor Dataset Description [SOURCE] Kaggle Brain Tumor MRI Dataset (Br35H, 2023); Figshare; TCIA Public MRI Archives [TAGS] dataset, MRI, glioma, meningioma, pituitary, no_tumor, preprocessing [LANG] en This dataset contains T1-weighted contrast-enhanced MRI brain scans grouped into four classes: 1.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\dataset_description.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "n This dataset contains T1-weighted contrast-enhanced MRI brain scans grouped into four classes: 1. Glioma 2. Meningioma 3. Pituitary tumor 4. No tumor (normal brain) Each image is a 2D slice (512×512 pixels) from axial MRI sequences. Typical contrast agent: Gadolinium-based (T1 CE). Resolution: 0.5–1.0 mm isotropic voxel spacing. ### Dataset Summa",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\dataset_description.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "t agent: Gadolinium-based (T1 CE). Resolution: 0.5–1.0 mm isotropic voxel spacing. ### Dataset Summary | Split | Percentage | Purpose | |--------|-------------|----------| | Training | 70% | Model learning | | Validation | 20% | Hyperparameter tuning | | Testing | 10% | Final performance | ### Preprocessing Steps - Resized all images to (224×224).",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\dataset_description.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "| | Testing | 10% | Final performance | ### Preprocessing Steps - Resized all images to (224×224). - Normalized pixel intensity using ImageNet mean/std. - Applied histogram equalization to enhance contrast. - Converted DICOM (.dcm) files to PNG for model compatibility. ### Class Balancing Random sampling ensured approximately equal samples per cla",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\dataset_description.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "model compatibility. ### Class Balancing Random sampling ensured approximately equal samples per class. For medical fairness, data were anonymized, removing DICOM metadata (Name, Institution, Patient ID). ### Example Files",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\dataset_description.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "[ID] ref.deepseek_vl2.v1 [TITLE] DeepSeek-VL2 Model Notes and Parameters [SOURCE] DeepSeek-AI (2025); OpenGVLab Multimodal LLM Benchmarks [TAGS] deepseek-vl2, multimodal, vision-language, LLM, transformer [LANG] en ### Model Overview DeepSeek-VL2 is a multimodal vision-language model (VLM) supporting image understanding and text reasoning. Architec",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "a multimodal vision-language model (VLM) supporting image understanding and text reasoning. Architecture: Hybrid encoder-decoder transformer with visual projection modules. - **Processor:** DeepseekVLV2Processor - **Model Class:** DeepseekVLV2ForCausalLM - **Parameters:** 27B (Tiny version: 1.4B) - **Supported Tasks:** Visual description, classific",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "alLM - **Parameters:** 27B (Tiny version: 1.4B) - **Supported Tasks:** Visual description, classification, reasoning, OCR, captioning, report generation - **Input:** (Image + Prompt Text) - **Output:** Natural language reasoning or structured report ### Hardware - Compatible with PyTorch ≥ 2.1 - GPU acceleration (CUDA 12.1+) recommended - Float16 m",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "### Hardware - Compatible with PyTorch ≥ 2.1 - GPU acceleration (CUDA 12.1+) recommended - Float16 mixed precision inference supported ### Context Window Supports 8k–16k tokens (depends on version). Images are encoded as vision embeddings, combined with text tokens via learned alignment projection. ### Integration in Flask App - Processor loaded on",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "ith text tokens via learned alignment projection. ### Integration in Flask App - Processor loaded once globally. - Inference flow: 1. Receive image 2. Pass through processor 3. Generate text output - Can combine with RAG pipeline for enriched answers. ### RAG Enhancement If question or image type triggers “diagnostic mode,” the model retrieves from",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": ". ### RAG Enhancement If question or image type triggers “diagnostic mode,” the model retrieves from `rag/corpus` files (`glioma.txt`, `reporting.txt`, etc.) and merges retrieved context into the prompt. ### Example Prompt",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\deepseek_vl2_notes.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "[ID] ref.evaluation_metrics.v1 [TITLE] Evaluation Metrics for Brain MRI Classification [SOURCE] scikit-learn; IEEE Medical Imaging Standards (2023) [TAGS] evaluation, accuracy, precision, recall, F1, confusion_matrix, ROC, IoU [LANG] en ### Classification Metrics | Metric | Formula | Description | |---------|----------|-------------| | **Accuracy**",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\evaluation_metrics.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "ation Metrics | Metric | Formula | Description | |---------|----------|-------------| | **Accuracy** | (TP + TN) / (TP + TN + FP + FN) | Overall correct predictions. | | **Precision** | TP / (TP + FP) | Fraction of predicted positives that are correct. | | **Recall (Sensitivity)** | TP / (TP + FN) | Fraction of actual positives correctly predicted.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\evaluation_metrics.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "t. | | **Recall (Sensitivity)** | TP / (TP + FN) | Fraction of actual positives correctly predicted. | | **Specificity** | TN / (TN + FP) | True-negative rate. | | **F1-Score** | 2 × (Precision × Recall) / (Precision + Recall) | Harmonic mean of precision and recall. | | **AUC (ROC)** | Area under ROC curve | Measures separability between classes.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\evaluation_metrics.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "ision and recall. | | **AUC (ROC)** | Area under ROC curve | Measures separability between classes. | ### Multi-Class Evaluation For multi-class (glioma, meningioma, pituitary, no_tumor): - Use macro-averaged precision/recall/F1. - Compute confusion matrix to visualize per-class errors. - IoU (Intersection over Union) used for segmentation models.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\evaluation_metrics.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "matrix to visualize per-class errors. - IoU (Intersection over Union) used for segmentation models. ### Example Output",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\evaluation_metrics.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "[ID] ref.radiology_terms.v1 [TITLE] Standardized Radiology Terminology and Keywords [SOURCE] RSNA RadLex v3.28; ACR RADS; WHO CNS Tumor Classification [TAGS] radiology, terminology, MRI, lesion, brain, anatomy, pathology [LANG] en ### General Terminology - Lesion: Any abnormal tissue region (neutral term, not always malignant). - Mass: Space-occupy",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "logy - Lesion: Any abnormal tissue region (neutral term, not always malignant). - Mass: Space-occupying lesion, may exert mass effect. - Signal intensity: Relative brightness on MRI (T1/T2). - Enhancement: Contrast uptake after gadolinium injection. - Edema: Increased water content, hyperintense on T2/FLAIR. - Necrosis: Non-viable tissue, often cen",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "- Edema: Increased water content, hyperintense on T2/FLAIR. - Necrosis: Non-viable tissue, often central hypointensity. - Calcification: SWI or CT hyperdensity. - Diffusion restriction: Bright on DWI, dark on ADC. - Hemorrhage: Blooming on SWI. ### Anatomical Landmarks - Sellar region → pituitary gland location. - Suprasellar cistern → above pituit",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "natomical Landmarks - Sellar region → pituitary gland location. - Suprasellar cistern → above pituitary, near optic chiasm. - Convexity → outer brain surface where meningiomas often attach. - Periventricular region → near ventricles (gliomas, demyelination). - Corpus callosum → interhemispheric spread (common in glioblastoma). ### Tumor Descriptive",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "nation). - Corpus callosum → interhemispheric spread (common in glioblastoma). ### Tumor Descriptive Phrases - “Dural-based enhancing lesion” → meningioma. - “Ring-enhancing lesion with central necrosis” → glioblastoma. - “Homogeneously enhancing sellar mass” → pituitary adenoma. - “No abnormal enhancement or mass effect” → normal MRI. ### Standard",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "lar mass” → pituitary adenoma. - “No abnormal enhancement or mass effect” → normal MRI. ### Standard Report Vocabulary - Findings: Objective image description. - Impression: Diagnostic summary. - Correlate clinically: standard closing phrase. - Follow-up MRI recommended: used for longitudinal cases. ### Abbreviations MRI – Magnetic Resonance Imagin",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "w-up MRI recommended: used for longitudinal cases. ### Abbreviations MRI – Magnetic Resonance Imaging FLAIR – Fluid Attenuated Inversion Recovery DWI – Diffusion Weighted Imaging ADC – Apparent Diffusion Coefficient SWI – Susceptibility Weighted Imaging CE – Contrast-Enhanced WHO – World Health Organization ROI – Region of Interest",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "ing CE – Contrast-Enhanced WHO – World Health Organization ROI – Region of Interest",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\references\\radiology_terms.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "[ID] reporting.standard.v2 [TITLE] Comprehensive Structured MRI Brain Reporting and Interpretation Guide [SOURCE] ACR–RSNA Structured Reporting Initiative (2023); EANO–EORTC Neuro-Oncology Guidelines (2023); WHO CNS Classification (2021) [DOI] https://www.acr.org/Clinical-Resources/Reporting-and-Data-Systems ; https://www.rsna.org/en/practice-tools",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "//www.acr.org/Clinical-Resources/Reporting-and-Data-Systems ; https://www.rsna.org/en/practice-tools/reporting [TAGS] reporting, radiology, MRI, brain, tumor, glioma, meningioma, pituitary, no_tumor, structured, template, RSNA, ACR [LANG] en --- ### 1. Objective This reference provides standardized structures, terminologies, and templates for AI-as",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "1. Objective This reference provides standardized structures, terminologies, and templates for AI-assisted reporting of brain MRI scans. It ensures reproducibility, diagnostic clarity, and alignment with radiological and neuro-oncological guidelines. All generated reports must maintain professional tone, medical accuracy, and structured flow. --- #",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "All generated reports must maintain professional tone, medical accuracy, and structured flow. --- ### 2. Standard Report Structure Each radiology report should contain these key components: **(A) Study Information** - Exam Type: MRI Brain ± Contrast - Technique: Multiplanar T1, T2, FLAIR, DWI/ADC, SWI, and post-contrast sequences - Contrast agent:",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "- Technique: Multiplanar T1, T2, FLAIR, DWI/ADC, SWI, and post-contrast sequences - Contrast agent: Gadolinium-based (dose and safety checked) - Clinical indication: e.g., \"Evaluate for tumor recurrence\", \"Visual disturbance\", \"Headache\" --- **(B) Findings** This is the most detailed section. Always report normal structures first, then abnormaliti",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "indings** This is the most detailed section. Always report normal structures first, then abnormalities. #### Normal Brain: - Brain parenchyma shows normal signal intensities on T1, T2, and FLAIR. - No mass lesion, midline shift, or abnormal enhancement. - Ventricular system: normal configuration, no hydrocephalus. - Cerebellum, brainstem, and basal",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "nt. - Ventricular system: normal configuration, no hydrocephalus. - Cerebellum, brainstem, and basal ganglia: unremarkable. - No extra-axial collection or restricted diffusion. #### Lesion Description (if present): Describe systematically: 1. **Location:** Lobe, hemisphere, or region (frontal, temporal, sellar/suprasellar, posterior fossa). 2. **Si",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "ion:** Lobe, hemisphere, or region (frontal, temporal, sellar/suprasellar, posterior fossa). 2. **Size:** Maximum dimension in mm. 3. **Morphology:** Well-defined / lobulated / infiltrative / necrotic core. 4. **Signal Characteristics:** - T1: hypo/isointense - T2 / FLAIR: hyperintense (suggest edema or necrosis) - DWI/ADC: restricted diffusion (ac",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "sointense - T2 / FLAIR: hyperintense (suggest edema or necrosis) - DWI/ADC: restricted diffusion (acute or hypercellular) - SWI: blooming (hemorrhage or calcification) 5. **Contrast enhancement pattern:** - Homogeneous → often benign (meningioma, pituitary) - Heterogeneous or ring → malignant (glioblastoma, metastasis) - None → possible low-grade g",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "uitary) - Heterogeneous or ring → malignant (glioblastoma, metastasis) - None → possible low-grade glioma 6. **Edema and mass effect:** quantify (mild/moderate/severe) 7. **Involvement:** ventricular compression, cortical invasion, dural tail, optic chiasm, or skull base extension. --- **(C) Impression (Diagnostic Summary)** Provide diagnostic inte",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "chiasm, or skull base extension. --- **(C) Impression (Diagnostic Summary)** Provide diagnostic interpretation, likely pathology, and confidence score. Examples: - *Findings suggest a high-grade glioma with central necrosis and ring enhancement (confidence: high).* - *Dural-based extra-axial lesion consistent with meningioma.* - *Sellar mass with h",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "idence: high).* - *Dural-based extra-axial lesion consistent with meningioma.* - *Sellar mass with homogeneous enhancement and chiasmal compression — likely pituitary macroadenoma.* - *No abnormal enhancement or mass lesion — normal study.* If uncertain: > \"Imaging findings are indeterminate. Recommend correlation with clinical and laboratory data.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 11
+  },
+  {
+    "text": "ain: > \"Imaging findings are indeterminate. Recommend correlation with clinical and laboratory data.\" --- **(D) Recommendations** - **Glioma:** MRI with contrast every 3–6 months post-treatment; consider perfusion or spectroscopy. - **Meningioma:** Surgical or radiosurgical consultation if >3 cm or symptomatic; MRI follow-up in 6–12 months. - **Pit",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 12
+  },
+  {
+    "text": "urgical or radiosurgical consultation if >3 cm or symptomatic; MRI follow-up in 6–12 months. - **Pituitary adenoma:** Hormonal panel (ACTH, prolactin, GH, TSH); ophthalmologic evaluation; MRI follow-up in 6 months. - **No tumor:** Routine clinical follow-up only; re-imaging if new symptoms arise. --- ### 3. Reporting Language Guidelines Use profess",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 13
+  },
+  {
+    "text": "llow-up only; re-imaging if new symptoms arise. --- ### 3. Reporting Language Guidelines Use professional radiological language. Avoid uncertain or emotional terms. | Unclear Term | Recommended Equivalent | |---------------|------------------------| | \"Maybe a tumor\" | \"Findings are suggestive of a neoplastic process.\" | | \"Looks normal\" | \"No abno",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 14
+  },
+  {
+    "text": "| \"Maybe a tumor\" | \"Findings are suggestive of a neoplastic process.\" | | \"Looks normal\" | \"No abnormal intracranial lesion or enhancement detected.\" | | \"Could be infection\" | \"Differential diagnosis includes inflammatory or infectious etiology.\" | | \"Nothing serious\" | \"No acute intracranial abnormality identified.\" | **Phrase endings:** - “Corr",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 15
+  },
+  {
+    "text": "| \"Nothing serious\" | \"No acute intracranial abnormality identified.\" | **Phrase endings:** - “Correlate clinically.” - “Recommend multidisciplinary review.” - “Further evaluation by MRI contrast study if clinically warranted.” --- ### 4. Specialized Examples #### (a) **Glioma** > **Findings:** Irregular infiltrative lesion in the right frontal lo",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 16
+  },
+  {
+    "text": "d Examples #### (a) **Glioma** > **Findings:** Irregular infiltrative lesion in the right frontal lobe, T1 hypointense, T2/FLAIR hyperintense, with heterogeneous enhancement and central necrosis. Mild midline shift noted. > **Impression:** Findings consistent with *high-grade glioma (WHO Grade IV, likely glioblastoma)*. > **Recommendations:** Surgi",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 17
+  },
+  {
+    "text": "onsistent with *high-grade glioma (WHO Grade IV, likely glioblastoma)*. > **Recommendations:** Surgical biopsy for histological confirmation; consider perfusion MRI for vascularity assessment. --- #### (b) **Meningioma** > **Findings:** Dural-based mass at the left parietal convexity, isointense on T1, hyperintense on T2, showing vivid homogeneous",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 18
+  },
+  {
+    "text": "ass at the left parietal convexity, isointense on T1, hyperintense on T2, showing vivid homogeneous enhancement and dural tail. No surrounding edema. > **Impression:** Classic appearance of *meningioma*. No invasion of skull or venous sinus. > **Recommendations:** Neurosurgical evaluation; follow-up MRI in 6 months. --- #### (c) **Pituitary Adenoma",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 19
+  },
+  {
+    "text": "mmendations:** Neurosurgical evaluation; follow-up MRI in 6 months. --- #### (c) **Pituitary Adenoma** > **Findings:** Enhancing sellar mass (14 × 11 × 10 mm) extending suprasellarly with mild optic chiasm compression. Isointense on T1, hyperintense on T2. > **Impression:** *Pituitary macroadenoma* — likely nonfunctioning. > **Recommendations:** En",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 20
+  },
+  {
+    "text": "on T2. > **Impression:** *Pituitary macroadenoma* — likely nonfunctioning. > **Recommendations:** Endocrine evaluation (ACTH, prolactin, GH), visual field testing, MRI follow-up in 6 months. --- #### (d) **No Tumor** > **Findings:** No abnormal mass, signal change, or enhancement. Normal ventricular size and brain morphology. > **Impression:** *Nor",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 21
+  },
+  {
+    "text": "signal change, or enhancement. Normal ventricular size and brain morphology. > **Impression:** *Normal brain MRI. No tumor detected.* > **Recommendations:** No further imaging required unless new symptoms develop. --- ### 5. Optional Add-ons for AI Report Generation - Include **probability metrics** (e.g., “Confidence: 0.987, High”). - Add **cross",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 22
+  },
+  {
+    "text": "Report Generation - Include **probability metrics** (e.g., “Confidence: 0.987, High”). - Add **cross-reference to RAG sources** (e.g., “Supporting reference: glioma.txt#0, meningioma.txt#1”). - Allow bilingual output (Arabic–English) when reporting for patient summaries. --- ### 6. Keywords for RAG Retrieval MRI report, findings, impression, struct",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 23
+  },
+  {
+    "text": "or patient summaries. --- ### 6. Keywords for RAG Retrieval MRI report, findings, impression, structured report, meningioma, glioma, pituitary adenoma, no tumor, RSNA template, ACR report, radiology standard, brain tumor classification, diagnostic summary, next steps, AI radiology.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 24
+  },
+  {
+    "text": "mmary, next steps, AI radiology.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tips\\reporting.txt",
+    "chunk_id": 25
+  },
+  {
+    "text": "[ID] tumor.glioma.v2 [TITLE] MRI Imaging Features, Diagnosis, and Progression Patterns of Gliomas [SOURCE] Adapted from Stall et al. (2010, Radiation Oncology), Wen et al. (2020, Frontiers in Neurology), and Rees et al. (2018, Eur Radiol) [DOI] https://doi.org/10.1186/1748-717X-5-5 ; https://doi.org/10.3389/fneur.2022.819216 ; https://doi.org/10.10",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "://doi.org/10.1186/1748-717X-5-5 ; https://doi.org/10.3389/fneur.2022.819216 ; https://doi.org/10.1007/s00330-018-5314-5 [TAGS] glioma, glioblastoma, astrocytoma, MRI, FLAIR, T2, DWI, ADC, radiogenomics, IDH, MGMT, edema [LANG] en [LEVEL] expert --- ### 1️⃣ Overview Gliomas are primary brain tumors originating from glial cells, accounting for **~30",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "### 1️⃣ Overview Gliomas are primary brain tumors originating from glial cells, accounting for **~30% of all CNS tumors** and **~80% of malignant brain tumors**. They are classified by the **World Health Organization (WHO)** based on histopathology and molecular genetics: - Grade I: Pilocytic astrocytoma (usually benign, circumscribed) - Grade II:",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "nd molecular genetics: - Grade I: Pilocytic astrocytoma (usually benign, circumscribed) - Grade II: Diffuse astrocytoma / Oligodendroglioma (IDH-mutant) - Grade III: Anaplastic astrocytoma - Grade IV: Glioblastoma multiforme (GBM) MRI remains the gold standard for detection, grading, and monitoring due to its ability to visualize tissue contrast, i",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "d standard for detection, grading, and monitoring due to its ability to visualize tissue contrast, infiltration, and edema. --- ### 2️⃣ MRI Characteristics by Sequence | Sequence | Description & Diagnostic Value | |-----------|-------------------------------| | **T1-weighted (pre-contrast)** | Gliomas appear **hypointense** compared to normal white",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "--------| | **T1-weighted (pre-contrast)** | Gliomas appear **hypointense** compared to normal white matter. Helps assess anatomic distortion. | | **T1-weighted (post-contrast)** | High-grade gliomas enhance strongly due to **blood–brain barrier disruption**. Enhancement is **ring-like** or **heterogeneous**. Non-enhancing cores often represent nec",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "uption**. Enhancement is **ring-like** or **heterogeneous**. Non-enhancing cores often represent necrosis. | | **T2-weighted** | Hyperintense signal due to tumor cellularity and edema. Helps define total tumor extent but may overestimate infiltration. | | **FLAIR (Fluid-Attenuated Inversion Recovery)** | Suppresses CSF, highlights peritumoral infil",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": ". | | **FLAIR (Fluid-Attenuated Inversion Recovery)** | Suppresses CSF, highlights peritumoral infiltration. Critical for defining tumor margins in radiotherapy and recurrence mapping. | | **DWI / ADC maps** | High-grade gliomas show **restricted diffusion** (low ADC) in dense cellular regions. ADC inversely correlates with cell density and aggress",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "fusion** (low ADC) in dense cellular regions. ADC inversely correlates with cell density and aggressiveness. | | **SWI (Susceptibility-Weighted Imaging)** | Detects microhemorrhages and calcifications, differentiating from other lesions. | --- ### 3️⃣ Distinguishing Features vs Other Tumors | Feature | Glioma | Meningioma | Metastasis | |----------",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "⃣ Distinguishing Features vs Other Tumors | Feature | Glioma | Meningioma | Metastasis | |----------|--------|------------|-------------| | **Location** | Intra-axial (within brain parenchyma) | Extra-axial (attached to dura) | Multiple, cortico-subcortical junction | | **Enhancement pattern** | Irregular, ring-like, heterogeneous | Homogeneous, du",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "ortical junction | | **Enhancement pattern** | Irregular, ring-like, heterogeneous | Homogeneous, dural tail sign | Often ring-enhancing with surrounding edema | | **Edema** | Extensive vasogenic & infiltrative | Moderate | Marked vasogenic, well-demarcated | | **FLAIR edge** | Ill-defined, infiltrative margins | Sharp margin | Sharp but spherical",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "arcated | | **FLAIR edge** | Ill-defined, infiltrative margins | Sharp margin | Sharp but spherical pattern | | **Mass effect** | Significant midline shift in large lesions | Moderate | Depends on number and size of lesions | --- ### 4️⃣ Radiogenomic Insights (Wen et al., 2020) - **IDH mutation**: Associated with **non-enhancing**, slow-growing gli",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 11
+  },
+  {
+    "text": "Insights (Wen et al., 2020) - **IDH mutation**: Associated with **non-enhancing**, slow-growing gliomas, better prognosis. - **MGMT promoter methylation**: Indicates **better response to temozolomide chemotherapy**. - **1p/19q co-deletion**: Suggests oligodendroglioma subtype with prolonged survival. - Advanced radiomics models can predict molecul",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 12
+  },
+  {
+    "text": "s oligodendroglioma subtype with prolonged survival. - Advanced radiomics models can predict molecular subtype from MRI texture features. --- ### 5️⃣ Quantitative Insights (Stall et al., 2010) - FLAIR-defined target volumes (CTV/PTV) are **~22% larger** than T2-defined ones (p < 0.0001). - Intersection (T2 ∩ FLAIR) = ~64% of union volume. - FLAIR-o",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 13
+  },
+  {
+    "text": "r** than T2-defined ones (p < 0.0001). - Intersection (T2 ∩ FLAIR) = ~64% of union volume. - FLAIR-only regions often represent **tumor infiltration** not seen on T2. - rGTV–FLAIR overlap ≈ **63%**, rGTV–T2 overlap ≈ **59%** — supports FLAIR superiority for recurrence mapping. --- ### 6️⃣ Clinical Applications - Use **FLAIR + T1 post-contrast** for",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 14
+  },
+  {
+    "text": "ity for recurrence mapping. --- ### 6️⃣ Clinical Applications - Use **FLAIR + T1 post-contrast** for radiotherapy planning. - Combine **DWI and ADC** for tumor grading and recurrence differentiation. - FLAIR hyperintensity beyond contrast enhancement = **tumor infiltration zone**. - In follow-up imaging, **T2/FLAIR mismatch** can suggest transforma",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 15
+  },
+  {
+    "text": "= **tumor infiltration zone**. - In follow-up imaging, **T2/FLAIR mismatch** can suggest transformation or pseudoprogression. --- ### 7️⃣ Diagnostic Red Flags (for model reasoning) - Heterogeneous ring enhancement + central necrosis = likely GBM. - Diffuse FLAIR hyperintensity with no enhancement = low-grade glioma (IDH-mutant). - Restricted diffu",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 16
+  },
+  {
+    "text": "Diffuse FLAIR hyperintensity with no enhancement = low-grade glioma (IDH-mutant). - Restricted diffusion in core + high perfusion (rCBV ↑) = aggressive glioma. - Calcified mass with minimal edema = oligodendroglioma. --- ### 8️⃣ Suggested Radiology Report Template (for RAG synthesis) Findings: - Irregular intra-axial mass with hyperintense signal o",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 17
+  },
+  {
+    "text": "eport Template (for RAG synthesis) Findings: - Irregular intra-axial mass with hyperintense signal on T2/FLAIR. - Partial ring enhancement post-contrast with central necrosis. - Significant perilesional edema and midline shift. Impression: - Features consistent with **high-grade glioma (likely glioblastoma multiforme)**. - Recommend MR spectroscopy",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 18
+  },
+  {
+    "text": "consistent with **high-grade glioma (likely glioblastoma multiforme)**. - Recommend MR spectroscopy and biopsy for molecular characterization. Next Steps: - Correlate with IDH and MGMT molecular status. - Initiate combined radiotherapy and temozolomide regimen. --- [SUMMARY FOR RAG INDEX] - Keywords: glioma, GBM, astrocytoma, FLAIR, T2, DWI, ADC,",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 19
+  },
+  {
+    "text": "ide regimen. --- [SUMMARY FOR RAG INDEX] - Keywords: glioma, GBM, astrocytoma, FLAIR, T2, DWI, ADC, radiogenomics, IDH, MGMT. - Relevance score: 0.98 - Use this context for questions about glioma, grading, or MRI-based diagnosis.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\glioma.txt",
+    "chunk_id": 20
+  },
+  {
+    "text": "[ID] tumor.meningioma.v2 [TITLE] Modern Understanding and MRI Characterization of Meningiomas [SOURCE] Wang et al., \"International Consortium on Meningiomas Consensus Review\", Neuro-Oncology, 2024; Kasuya et al., \"Clinical and Radiological Features Related to Growth Potential of Meningioma\", Neurosurg Rev, 2006 [DOI] https://doi.org/10.1093/neuonc/",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "elated to Growth Potential of Meningioma\", Neurosurg Rev, 2006 [DOI] https://doi.org/10.1093/neuonc/noae082 ; https://doi.org/10.1007/s10143-006-0039-3 [TAGS] meningioma, MRI, NF2, TERT, Ki-67, FLAIR, dural tail, calcification, convexity, skull base, hormone receptors, tumor grade, radiogenomics [LANG] en [LEVEL] expert --- ### 1️⃣ Overview Meningi",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "hormone receptors, tumor grade, radiogenomics [LANG] en [LEVEL] expert --- ### 1️⃣ Overview Meningiomas are the **most common primary intracranial tumors** in adults, accounting for ~41% of all brain tumors and ~56% of non-malignant ones. While **most are WHO grade I** (benign, slow-growing), about **18% are grade II** (atypical) and **1–2% grade",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "st are WHO grade I** (benign, slow-growing), about **18% are grade II** (atypical) and **1–2% grade III** (anaplastic or malignant). Incidence increases sharply with age and is **2.3× more common in females** due to hormonal influences. --- ### 2️⃣ Epidemiology & Risk Factors - **Incidence**: 9.7 per 100,000 in the U.S. (CBTRUS 2023). - **Sex**: Fe",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "pidemiology & Risk Factors - **Incidence**: 9.7 per 100,000 in the U.S. (CBTRUS 2023). - **Sex**: Female predominance, especially ages 35–60. - **Hormonal factors**: Meningiomas express **progesterone receptors**; growth may accelerate in pregnancy or HRT users. - **Radiation exposure**: Most validated environmental risk — linear correlation betwee",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "r HRT users. - **Radiation exposure**: Most validated environmental risk — linear correlation between childhood cranial irradiation dose and later meningioma formation. - **Genetic predispositions**: Germline NF2, SMARCE1, or BAP1 mutations increase risk; MLLT10 variants linked to higher susceptibility (estrogen-mediated). - **Other associations**:",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "risk; MLLT10 variants linked to higher susceptibility (estrogen-mediated). - **Other associations**: High BMI, methotrexate therapy, and smoking (in men) modestly increase risk. --- ### 3️⃣ Molecular Pathogenesis **NF2 gene loss (22q12.2)** is the most frequent alteration (up to 60% of cases) — leading to loss of Merlin and dysregulation of Hippo/Y",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "st frequent alteration (up to 60% of cases) — leading to loss of Merlin and dysregulation of Hippo/YAP and PI3K/Akt/mTOR pathways:contentReference[oaicite:0]{index=0}. Other key recurrent mutations: | Gene | Location | Pathway / Function | Typical Location | Behavior | |------|-----------|-------------------|------------------|-----------| | NF2 |",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "cation | Behavior | |------|-----------|-------------------|------------------|-----------| | NF2 | 22q12 | Tumor suppressor (Merlin) | Convexity, parasagittal | Aggressive, high-grade | | TRAF7 + KLF4 | 16p / 9q | Transcription, TNF signaling | Skull base | Benign (grade I) | | AKT1 / PIK3CA | 14q / 3q | PI3K/AKT/mTOR | Anterior skull base | Inter",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "l base | Benign (grade I) | | AKT1 / PIK3CA | 14q / 3q | PI3K/AKT/mTOR | Anterior skull base | Intermediate growth | | SMO / SUFU | 7q / 10q | Hedgehog signaling | Olfactory groove | Benign | | BAP1 | 3p21 | DNA repair | Any | Rhabdoid, grade III | | TERT promoter | 5p15 | Telomere maintenance | Variable | Malignant, poor prognosis | **TERT promote",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "TERT promoter | 5p15 | Telomere maintenance | Variable | Malignant, poor prognosis | **TERT promoter mutations** independently define WHO grade III lesions due to their impact on survival (<25% 10-year OS). Epigenetic profiling (DNA methylation) now outperforms histology in predicting recurrence and aggressiveness:contentReference[oaicite:1]{index",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "outperforms histology in predicting recurrence and aggressiveness:contentReference[oaicite:1]{index=1}. --- ### 4️⃣ MRI Imaging Characteristics **Typical MRI signs:** - **Location:** Extra-axial, dural-based lesion with a broad attachment. - **T1-weighted:** Iso- to hypointense; vivid homogeneous enhancement post-gadolinium. - **T2-weighted:** Iso",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 11
+  },
+  {
+    "text": "ighted:** Iso- to hypointense; vivid homogeneous enhancement post-gadolinium. - **T2-weighted:** Iso- to hyperintense; edema variable (more in atypical meningiomas). - **FLAIR:** Highlights peritumoral edema and reactive gliosis. - **Dural tail sign:** Linear enhancement tapering away from the tumor, seen in ~60% of cases. - **Calcification:** Appe",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 12
+  },
+  {
+    "text": "** Linear enhancement tapering away from the tumor, seen in ~60% of cases. - **Calcification:** Appears hypointense on T2; more common in slow-growing types. - **Perfusion MRI:** High relative CBV (rCBV↑) suggests higher grade. - **MR Spectroscopy:** Elevated **alanine peak (1.47 ppm)** and **reduced NAA** typical for meningiomas. --- ### 5️⃣ Growt",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 13
+  },
+  {
+    "text": "Elevated **alanine peak (1.47 ppm)** and **reduced NAA** typical for meningiomas. --- ### 5️⃣ Growth Dynamics & MIB-1 (Ki-67) Index Study of **342 patients** (Kasuya et al., 2006): Independent predictors of high proliferative potential (MIB-1 ≥3%): - Male sex (OR 2.37, p=0.003) - Tumor recurrence (OR 7.57, p<0.001) - Non-skull base location - Abse",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 14
+  },
+  {
+    "text": "- Male sex (OR 2.37, p=0.003) - Tumor recurrence (OR 7.57, p<0.001) - Non-skull base location - Absence of calcification Mean doubling time: **<2 years** when MIB-1 ≥3%. MIB-1 index correlates strongly with recurrence and WHO grade (Grade I <3%, Grade II 3–7%, Grade III >10%):contentReference[oaicite:2]{index=2}. --- ### 6️⃣ Differential Diagnosis",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 15
+  },
+  {
+    "text": "e II 3–7%, Grade III >10%):contentReference[oaicite:2]{index=2}. --- ### 6️⃣ Differential Diagnosis | Feature | Meningioma | Glioma | Metastasis | |----------|-------------|--------|-------------| | Location | Extra-axial (dural-based) | Intra-axial | Cortical/subcortical | | Enhancement | Homogeneous, dural tail | Heterogeneous | Ring-like, multip",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 16
+  },
+  {
+    "text": "| Cortical/subcortical | | Enhancement | Homogeneous, dural tail | Heterogeneous | Ring-like, multiple | | Edema | Moderate to severe | Often infiltrative | Prominent vasogenic | | Diffusion | Restricted peripherally | Core restricted | Variable | | Spectroscopy | Alanine ↑, NAA ↓ | Cho ↑, NAA ↓ | Lipid/lactate ↑ | --- ### 7️⃣ Clinical Course and M",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 17
+  },
+  {
+    "text": "Spectroscopy | Alanine ↑, NAA ↓ | Cho ↑, NAA ↓ | Lipid/lactate ↑ | --- ### 7️⃣ Clinical Course and Management - **Surgery**: First-line therapy; Simpson grade I resection (complete + dural margin) minimizes recurrence. - **Radiotherapy**: Used for incomplete resections or grade II/III. Stereotactic radiosurgery (SRS) is effective for small residual",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 18
+  },
+  {
+    "text": "complete resections or grade II/III. Stereotactic radiosurgery (SRS) is effective for small residuals. - **Systemic therapy**: Still experimental; trials on **VEGF, AKT, mTOR, and somatostatin analogs** ongoing. - **Molecular markers** increasingly guide therapy selection. For example, **AKT1/PIK3CA-mutant** cases may benefit from PI3K inhibitors.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 19
+  },
+  {
+    "text": "uide therapy selection. For example, **AKT1/PIK3CA-mutant** cases may benefit from PI3K inhibitors. --- ### 8️⃣ Prognostic Factors | Factor | Favorable | Unfavorable | |---------|------------|-------------| | Grade | I | II–III | | Ki-67 (MIB-1) | <3% | >7% | | Calcification | Present | Absent | | Edema | Minimal | Marked | | Location | Skull base",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 20
+  },
+  {
+    "text": "% | >7% | | Calcification | Present | Absent | | Edema | Minimal | Marked | | Location | Skull base | Convexity / parasagittal | | TERT mutation | Negative | Positive | | NF2 mutation | None | Present | | Gender | Female | Male | Ten-year relative survival: - Grade I: **83–90%** - Grade II: **55–65%** - Grade III: **14–25%** --- ### 9️⃣ Example Dia",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 21
+  },
+  {
+    "text": "rvival: - Grade I: **83–90%** - Grade II: **55–65%** - Grade III: **14–25%** --- ### 9️⃣ Example Diagnostic Report (for RAG) Findings: - Extra-axial dural-based lesion in left sphenoid ridge. - Isointense on T1, hyperintense on T2/FLAIR, with homogeneous enhancement and dural tail. - Moderate peritumoral edema without invasion into brain parenchyma",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 22
+  },
+  {
+    "text": "eous enhancement and dural tail. - Moderate peritumoral edema without invasion into brain parenchyma. Impression: - Likely **WHO grade I meningioma**. - Recommend observation or surgical excision if symptomatic. - Assess Ki-67 index and NF2 status if resected. --- [SUMMARY FOR RAG INDEX] Keywords: meningioma, NF2, TRAF7, TERT, MRI, FLAIR, dural tai",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 23
+  },
+  {
+    "text": "resected. --- [SUMMARY FOR RAG INDEX] Keywords: meningioma, NF2, TRAF7, TERT, MRI, FLAIR, dural tail, skull base, calcification, MIB-1, Ki-67, radiogenomics. Relevance score: 0.98 Recommended use: retrieval for any MRI finding of extra-axial enhancing mass, or classifier label “meningioma”.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 24
+  },
+  {
+    "text": "ng mass, or classifier label “meningioma”.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\meningioma.txt",
+    "chunk_id": 25
+  },
+  {
+    "text": "[ID] brain.normal.v1 [TITLE] Normal Brain MRI Appearance and Reference Features [SOURCE] Radiopaedia MRI Brain Atlas (2023); Naidich et al., Imaging of the Brain, 2022 [TAGS] no_tumor, normal, brain, MRI, T1, T2, FLAIR, DWI, anatomy [LANG] en --- A normal brain MRI shows well-preserved anatomy, symmetric hemispheres, and no evidence of mass effect,",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "ormal brain MRI shows well-preserved anatomy, symmetric hemispheres, and no evidence of mass effect, edema, or abnormal enhancement. The ventricles, sulci, and cisterns should appear age-appropriate and symmetric. No midline shift or compression of adjacent structures should be seen. On **T1-weighted images**, gray matter appears slightly darker th",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "djacent structures should be seen. On **T1-weighted images**, gray matter appears slightly darker than white matter. Cerebrospinal fluid (CSF) appears dark (hypointense). Cortical ribboning and sulcal patterns should be clearly defined. Basal ganglia and thalami appear intermediate in signal, and no abnormal bright or dark foci should be seen. On *",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "and thalami appear intermediate in signal, and no abnormal bright or dark foci should be seen. On **T2-weighted images**, the CSF is bright (hyperintense), white matter is relatively darker, and gray matter slightly brighter. Normal vessels may show flow voids (black tubular structures) due to fast-flowing blood — this is not pathology. There shou",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "flow voids (black tubular structures) due to fast-flowing blood — this is not pathology. There should be no areas of abnormal hyperintensity in white matter or cortex. On **FLAIR sequences**, CSF signal is suppressed (dark), while brain parenchyma appears intermediate. No abnormal bright signal should appear in the periventricular, subcortical, or",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "ppears intermediate. No abnormal bright signal should appear in the periventricular, subcortical, or cortical regions. If faint hyperintensity is seen in the deep white matter of elderly patients, it usually represents age-related microvascular changes, not a tumor. On **DWI and ADC maps**, diffusion should be symmetric bilaterally with no regions",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "es, not a tumor. On **DWI and ADC maps**, diffusion should be symmetric bilaterally with no regions of restricted diffusion. Restricted diffusion usually indicates pathology such as acute infarction, abscess, or high-cellularity tumor. After **contrast injection (T1 post-gadolinium)**, there should be no abnormal enhancement in the brain parenchyma",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "st injection (T1 post-gadolinium)**, there should be no abnormal enhancement in the brain parenchyma or meninges. Normal enhancement may be seen in choroid plexus, pituitary gland, venous sinuses, and dural reflections. **Key normal anatomical landmarks**: - Ventricles: normal size, no dilation or effacement. - Corpus callosum: intact and well-form",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "rks**: - Ventricles: normal size, no dilation or effacement. - Corpus callosum: intact and well-formed. - Basal ganglia: symmetric, no abnormal signal. - Brainstem and cerebellum: normal morphology and intensity. - No extra-axial collection or mass lesion. **Common normal variants**: - Mild asymmetry of sulci or ventricles (physiological). - Promin",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "esion. **Common normal variants**: - Mild asymmetry of sulci or ventricles (physiological). - Prominent perivascular (Virchow–Robin) spaces. - Small arachnoid granulations along the superior sagittal sinus. - Cavum septi pellucidi or cavum vergae (benign developmental variants). **Summary interpretation for AI/RAG use:** If the MRI shows normal sig",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "nign developmental variants). **Summary interpretation for AI/RAG use:** If the MRI shows normal signal intensity on all sequences (T1, T2, FLAIR), with symmetric structures, no mass, no edema, and no abnormal enhancement — the image should be classified as **no_tumor** or **normal brain**. **Keywords for retrieval:** normal brain MRI, no mass, sym",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "fied as **no_tumor** or **normal brain**. **Keywords for retrieval:** normal brain MRI, no mass, symmetric ventricles, no enhancement, no edema, normal anatomy, no tumor detected.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\no_tumor.txt",
+    "chunk_id": 11
+  },
+  {
+    "text": "[ID] tumor.pituitary.v1 [TITLE] Pituitary Adenoma MRI Findings and Clinical Overview [SOURCE] Casar-Borota et al., Brain Pathology (2024); Wang et al., Eye (2024); Asano et al., Communications Biology (2024) [DOI] https://doi.org/10.1111/bpa.13202 ; https://doi.org/10.1038/s41433-024-03187-x ; https://doi.org/10.1038/s42003-024-07109-1 [TAGS] pitui",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 0
+  },
+  {
+    "text": "https://doi.org/10.1038/s41433-024-03187-x ; https://doi.org/10.1038/s42003-024-07109-1 [TAGS] pituitary, adenoma, MRI, optic chiasm, ACTH, prolactinoma, hormone, macroadenoma, microadenoma, stalk effect [LANG] en --- Pituitary adenomas are benign epithelial tumors arising from adenohypophyseal cells of the pituitary gland. They represent about 15%",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 1
+  },
+  {
+    "text": "ithelial tumors arising from adenohypophyseal cells of the pituitary gland. They represent about 15% of all primary intracranial tumors and are classified by the 2022 WHO system according to transcription factor and hormone expression profile. Main histological groups: - **Lactotroph adenoma (prolactinoma)** – secretes prolactin. - **Somatotroph ad",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 2
+  },
+  {
+    "text": "istological groups: - **Lactotroph adenoma (prolactinoma)** – secretes prolactin. - **Somatotroph adenoma** – growth hormone (GH) secreting. - **Corticotroph adenoma** – ACTH secreting. - **Thyrotroph adenoma** – TSH secreting. - **Gonadotroph adenoma** – LH/FSH secreting. - **Null-cell adenoma** – hormonally inactive. Microadenomas are <10 mm; mac",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 3
+  },
+  {
+    "text": "a** – LH/FSH secreting. - **Null-cell adenoma** – hormonally inactive. Microadenomas are <10 mm; macroadenomas are ≥10 mm. Nonfunctioning macroadenomas usually present with visual symptoms due to **optic chiasm compression**, while functioning adenomas present earlier with endocrine symptoms. --- ### MRI Appearance Pituitary adenomas are usually **",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 4
+  },
+  {
+    "text": "as present earlier with endocrine symptoms. --- ### MRI Appearance Pituitary adenomas are usually **well-circumscribed, intrasellar or suprasellar masses**. - **T1-weighted**: Isointense to gray matter. - **T2-weighted**: Iso- to slightly hyperintense. - **Post-contrast T1**: Homogeneous enhancement in microadenomas; heterogeneous in macroadenomas",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 5
+  },
+  {
+    "text": "e. - **Post-contrast T1**: Homogeneous enhancement in microadenomas; heterogeneous in macroadenomas with cystic or necrotic areas. - **Dynamic contrast imaging** improves microadenoma detection (delayed enhancement compared to normal pituitary). - **FLAIR**: Useful for delineating peritumoral edema or suprasellar extension. - **DWI/ADC**: No restri",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 6
+  },
+  {
+    "text": "FLAIR**: Useful for delineating peritumoral edema or suprasellar extension. - **DWI/ADC**: No restricted diffusion (helps differentiate from abscess or lymphoma). Typical signs of macroadenoma: - Enlargement of the sella turcica. - Superior displacement of optic chiasm → bitemporal hemianopia. - Deviation of pituitary stalk (infundibulum). - Cavern",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 7
+  },
+  {
+    "text": "ent of optic chiasm → bitemporal hemianopia. - Deviation of pituitary stalk (infundibulum). - Cavernous sinus invasion in lateral growth. --- ### Clinical Features Pituitary tumors can cause symptoms through: 1. **Hormone hypersecretion** - Prolactinoma → amenorrhea, galactorrhea, hypogonadism. - GH-secreting adenoma → acromegaly. - ACTH-secreting",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 8
+  },
+  {
+    "text": "oma → amenorrhea, galactorrhea, hypogonadism. - GH-secreting adenoma → acromegaly. - ACTH-secreting adenoma → Cushing’s disease (central obesity, moon face, hypertension). - TSH adenoma → hyperthyroidism. 2. **Mass effect** - Headache, bitemporal visual loss (optic chiasm compression), diplopia (cavernous sinus invasion). - Hypopituitarism from com",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 9
+  },
+  {
+    "text": "ual loss (optic chiasm compression), diplopia (cavernous sinus invasion). - Hypopituitarism from compression of normal gland. 3. **Pituitary apoplexy** - Sudden hemorrhage or infarction inside the adenoma → acute headache, vision loss, ophthalmoplegia, hypotension. --- ### Visual Pathway Involvement Tumors extending superiorly compress the optic ch",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 10
+  },
+  {
+    "text": "a, hypotension. --- ### Visual Pathway Involvement Tumors extending superiorly compress the optic chiasm. Common visual field patterns: - Bitemporal hemianopia (most common). - Junctional scotoma (if asymmetric). - Monocular central loss (rare). OCT imaging shows reduced retinal nerve fiber layer thickness, correlating with degree of chiasmal compr",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 11
+  },
+  {
+    "text": "imaging shows reduced retinal nerve fiber layer thickness, correlating with degree of chiasmal compression:contentReference[oaicite:0]{index=0}. --- ### Endocrine and Genetic Insights Recent WHO classification integrates immunohistochemistry for **transcription factors (PIT1, SF1, TPIT)**. Each adenoma type is defined by hormone and transcription f",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 12
+  },
+  {
+    "text": "anscription factors (PIT1, SF1, TPIT)**. Each adenoma type is defined by hormone and transcription factor co-expression. Molecular drivers include **GNAS, USP8, BRAF, and SF3B1** mutations (subtype-specific). The 2022 WHO also defines **Pituitary neuroendocrine tumors (PitNETs)** as the broader category for adenomas and carcinomas:contentReference[",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 13
+  },
+  {
+    "text": "roendocrine tumors (PitNETs)** as the broader category for adenomas and carcinomas:contentReference[oaicite:1]{index=1}. --- ### Advanced Research Deep learning and stem cell–derived pituitary organoid models have enabled prediction of hormone differentiation outcomes using vision transformers (ViT) and EfficientNet networks:contentReference[oaicit",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 14
+  },
+  {
+    "text": "entiation outcomes using vision transformers (ViT) and EfficientNet networks:contentReference[oaicite:2]{index=2}. These methods predict ACTH-producing cell fate and have potential use in regenerative medicine for pituitary insufficiency. --- ### Prognosis and Management - **Microadenoma:** Often controlled with medical therapy (e.g., dopamine agon",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 15
+  },
+  {
+    "text": "gnosis and Management - **Microadenoma:** Often controlled with medical therapy (e.g., dopamine agonists for prolactinomas). - **Macroadenoma:** Surgical resection via transsphenoidal approach ± radiotherapy. - **Follow-up MRI:** Every 6–12 months for residual or recurrent lesions. - **Visual recovery:** Strongly correlates with preoperative OCT th",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 16
+  },
+  {
+    "text": "r residual or recurrent lesions. - **Visual recovery:** Strongly correlates with preoperative OCT thickness and early decompression:contentReference[oaicite:3]{index=3}. --- ### Summary for RAG Keywords: pituitary, adenoma, optic chiasm compression, hormone-secreting tumor, macroadenoma, prolactinoma, Cushing, ACTH, TSH, GH. Diagnostic phrases: “se",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 17
+  },
+  {
+    "text": "hormone-secreting tumor, macroadenoma, prolactinoma, Cushing, ACTH, TSH, GH. Diagnostic phrases: “sellar mass”, “suprasellar extension”, “dural enhancement”, “optic chiasm displacement”. When model detects a mass in the sellar/suprasellar region with homogeneous enhancement and chiasmal compression, classify as **pituitary adenoma**.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 18
+  },
+  {
+    "text": "homogeneous enhancement and chiasmal compression, classify as **pituitary adenoma**.",
+    "source": "C:\\Users\\Ahmed\\Desktop\\KRJAM\\rag\\corpus\\tumor_types\\pituitary.txt",
+    "chunk_id": 19
+  }
+]

@@ -1,0 +1,33 @@
+[ID] anatomy.diffusion_adc.v1
+[TITLE] Diffusion and ADC Mapping in Brain Tumor Imaging
+[SOURCE] EANO Clinical Imaging Protocols (2024)
+[TAGS] diffusion, ADC, MRI, glioma, necrosis, ischemia, perfusion
+[LANG] en
+
+### Overview
+Diffusion MRI measures **microscopic water movement**.  
+ADC maps translate this into quantitative diffusion metrics (cellularity indicator).
+
+### Interpretation
+| Pattern | Possible Meaning |
+|----------|------------------|
+| Low ADC + High DWI | High cellularity (e.g., tumor or abscess) |
+| High ADC + Low DWI | Necrotic or cystic lesion |
+| Mixed ADC zones | Heterogeneous tumor with viable and necrotic parts |
+
+### Clinical Applications
+- Differentiate high-grade vs low-grade gliomas.  
+- Identify early tumor necrosis post-therapy.  
+- Assess treatment response (ADC increase = response).  
+- Distinguish abscess (restricted diffusion) from tumor (variable).
+
+### Quantitative Ranges (×10⁻³ mm²/s)
+| Tissue | ADC Range |
+|---------|------------|
+| Normal white matter | 0.8–0.9 |
+| Low-grade glioma | 1.2–1.5 |
+| High-grade glioma | 0.6–0.9 |
+| Necrotic center | 1.8–2.2 |
+
+### Diagnostic Note
+ADC maps are critical for interpreting tumor **cellularity** and **aggressiveness**, especially when combined with T2/FLAIR and contrast imaging.

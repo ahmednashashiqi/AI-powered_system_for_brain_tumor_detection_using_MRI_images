@@ -1,0 +1,134 @@
+[ID] reporting.standard.v2
+[TITLE] Comprehensive Structured MRI Brain Reporting and Interpretation Guide
+[SOURCE] ACR–RSNA Structured Reporting Initiative (2023); EANO–EORTC Neuro-Oncology Guidelines (2023); WHO CNS Classification (2021)
+[DOI] https://www.acr.org/Clinical-Resources/Reporting-and-Data-Systems ; https://www.rsna.org/en/practice-tools/reporting
+[TAGS] reporting, radiology, MRI, brain, tumor, glioma, meningioma, pituitary, no_tumor, structured, template, RSNA, ACR
+[LANG] en
+
+---
+
+### 1. Objective
+This reference provides standardized structures, terminologies, and templates for AI-assisted reporting of brain MRI scans.  
+It ensures reproducibility, diagnostic clarity, and alignment with radiological and neuro-oncological guidelines.  
+All generated reports must maintain professional tone, medical accuracy, and structured flow.
+
+---
+
+### 2. Standard Report Structure
+Each radiology report should contain these key components:
+
+**(A) Study Information**
+- Exam Type: MRI Brain ± Contrast  
+- Technique: Multiplanar T1, T2, FLAIR, DWI/ADC, SWI, and post-contrast sequences  
+- Contrast agent: Gadolinium-based (dose and safety checked)  
+- Clinical indication: e.g., "Evaluate for tumor recurrence", "Visual disturbance", "Headache"
+
+---
+
+**(B) Findings**
+This is the most detailed section. Always report normal structures first, then abnormalities.
+
+#### Normal Brain:
+- Brain parenchyma shows normal signal intensities on T1, T2, and FLAIR.  
+- No mass lesion, midline shift, or abnormal enhancement.  
+- Ventricular system: normal configuration, no hydrocephalus.  
+- Cerebellum, brainstem, and basal ganglia: unremarkable.  
+- No extra-axial collection or restricted diffusion.
+
+#### Lesion Description (if present):
+Describe systematically:
+1. **Location:** Lobe, hemisphere, or region (frontal, temporal, sellar/suprasellar, posterior fossa).  
+2. **Size:** Maximum dimension in mm.  
+3. **Morphology:** Well-defined / lobulated / infiltrative / necrotic core.  
+4. **Signal Characteristics:**
+   - T1: hypo/isointense  
+   - T2 / FLAIR: hyperintense (suggest edema or necrosis)  
+   - DWI/ADC: restricted diffusion (acute or hypercellular)  
+   - SWI: blooming (hemorrhage or calcification)
+5. **Contrast enhancement pattern:**
+   - Homogeneous → often benign (meningioma, pituitary)
+   - Heterogeneous or ring → malignant (glioblastoma, metastasis)
+   - None → possible low-grade glioma
+6. **Edema and mass effect:** quantify (mild/moderate/severe)  
+7. **Involvement:** ventricular compression, cortical invasion, dural tail, optic chiasm, or skull base extension.
+
+---
+
+**(C) Impression (Diagnostic Summary)**
+Provide diagnostic interpretation, likely pathology, and confidence score.
+
+Examples:
+- *Findings suggest a high-grade glioma with central necrosis and ring enhancement (confidence: high).*
+- *Dural-based extra-axial lesion consistent with meningioma.*
+- *Sellar mass with homogeneous enhancement and chiasmal compression — likely pituitary macroadenoma.*
+- *No abnormal enhancement or mass lesion — normal study.*
+
+If uncertain:
+> "Imaging findings are indeterminate. Recommend correlation with clinical and laboratory data."
+
+---
+
+**(D) Recommendations**
+- **Glioma:** MRI with contrast every 3–6 months post-treatment; consider perfusion or spectroscopy.  
+- **Meningioma:** Surgical or radiosurgical consultation if >3 cm or symptomatic; MRI follow-up in 6–12 months.  
+- **Pituitary adenoma:** Hormonal panel (ACTH, prolactin, GH, TSH); ophthalmologic evaluation; MRI follow-up in 6 months.  
+- **No tumor:** Routine clinical follow-up only; re-imaging if new symptoms arise.
+
+---
+
+### 3. Reporting Language Guidelines
+Use professional radiological language. Avoid uncertain or emotional terms.
+
+| Unclear Term | Recommended Equivalent |
+|---------------|------------------------|
+| "Maybe a tumor" | "Findings are suggestive of a neoplastic process." |
+| "Looks normal" | "No abnormal intracranial lesion or enhancement detected." |
+| "Could be infection" | "Differential diagnosis includes inflammatory or infectious etiology." |
+| "Nothing serious" | "No acute intracranial abnormality identified." |
+
+**Phrase endings:**  
+- “Correlate clinically.”  
+- “Recommend multidisciplinary review.”  
+- “Further evaluation by MRI contrast study if clinically warranted.”
+
+---
+
+### 4. Specialized Examples
+
+#### (a) **Glioma**
+> **Findings:** Irregular infiltrative lesion in the right frontal lobe, T1 hypointense, T2/FLAIR hyperintense, with heterogeneous enhancement and central necrosis. Mild midline shift noted.  
+> **Impression:** Findings consistent with *high-grade glioma (WHO Grade IV, likely glioblastoma)*.  
+> **Recommendations:** Surgical biopsy for histological confirmation; consider perfusion MRI for vascularity assessment.
+
+---
+
+#### (b) **Meningioma**
+> **Findings:** Dural-based mass at the left parietal convexity, isointense on T1, hyperintense on T2, showing vivid homogeneous enhancement and dural tail. No surrounding edema.  
+> **Impression:** Classic appearance of *meningioma*. No invasion of skull or venous sinus.  
+> **Recommendations:** Neurosurgical evaluation; follow-up MRI in 6 months.
+
+---
+
+#### (c) **Pituitary Adenoma**
+> **Findings:** Enhancing sellar mass (14 × 11 × 10 mm) extending suprasellarly with mild optic chiasm compression. Isointense on T1, hyperintense on T2.  
+> **Impression:** *Pituitary macroadenoma* — likely nonfunctioning.  
+> **Recommendations:** Endocrine evaluation (ACTH, prolactin, GH), visual field testing, MRI follow-up in 6 months.
+
+---
+
+#### (d) **No Tumor**
+> **Findings:** No abnormal mass, signal change, or enhancement. Normal ventricular size and brain morphology.  
+> **Impression:** *Normal brain MRI. No tumor detected.*  
+> **Recommendations:** No further imaging required unless new symptoms develop.
+
+---
+
+### 5. Optional Add-ons for AI Report Generation
+- Include **probability metrics** (e.g., “Confidence: 0.987, High”).  
+- Add **cross-reference to RAG sources** (e.g., “Supporting reference: glioma.txt#0, meningioma.txt#1”).  
+- Allow bilingual output (Arabic–English) when reporting for patient summaries.
+
+---
+
+### 6. Keywords for RAG Retrieval
+MRI report, findings, impression, structured report, meningioma, glioma, pituitary adenoma, no tumor, RSNA template, ACR report, radiology standard, brain tumor classification, diagnostic summary, next steps, AI radiology.

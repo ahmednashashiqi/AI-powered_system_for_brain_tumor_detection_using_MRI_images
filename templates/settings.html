@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Settings • Brain MRI Analyzer{% endblock %}
+
+{% block content %}
+<div class="card">
+  <h2>Settings</h2>
+  <div class="sub">These preferences are stored locally in your browser.</div>
+
+  <div class="opt-row">
+    <label class="opt">
+      <input id="set_default_rag" type="checkbox" checked>
+      <div>
+        <div style="font-weight:600">Default: Use RAG</div>
+        <div class="muted">Auto-enable RAG on the Analyze page.</div>
+      </div>
+    </label>
+
+    <label class="opt">
+      <input id="set_default_adv" type="checkbox">
+      <div>
+        <div style="font-weight:600">Default: Advanced Report</div>
+        <div class="muted">Auto-enable Grad-CAM if available.</div>
+      </div>
+    </label>
+
+    <div class="field">
+      <div style="width:200px" class="muted">Default Confidence Threshold</div>
+      <input id="set_thresh" type="number" step="0.01" value="0.60">
+    </div>
+
+    <button id="saveSettings" class="btn primary">Save</button>
+    <div id="setStatus" class="muted"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // load
+  const prefs = JSON.parse(localStorage.getItem('bma_prefs') || '{}');
+  document.getElementById('set_default_rag').checked = prefs.default_rag ?? true;
+  document.getElementById('set_default_adv').checked = !!prefs.default_adv;
+  document.getElementById('set_thresh').value = (prefs.default_thresh ?? 0.60);
+
+  document.getElementById('saveSettings').addEventListener('click', ()=>{
+    const next = {
+      default_rag: document.getElementById('set_default_rag').checked,
+      default_adv: document.getElementById('set_default_adv').checked,
+      default_thresh: parseFloat(document.getElementById('set_thresh').value || '0.60')
+    };
+    localStorage.setItem('bma_prefs', JSON.stringify(next));
+    const s = document.getElementById('setStatus');
+    s.textContent = 'Saved ✓';
+    setTimeout(()=> s.textContent='', 1200);
+  });
+})();
+</script>
+{% endblock %}

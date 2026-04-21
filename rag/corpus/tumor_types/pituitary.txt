@@ -1,0 +1,95 @@
+[ID] tumor.pituitary.v1
+[TITLE] Pituitary Adenoma MRI Findings and Clinical Overview
+[SOURCE] Casar-Borota et al., Brain Pathology (2024); Wang et al., Eye (2024); Asano et al., Communications Biology (2024)
+[DOI] https://doi.org/10.1111/bpa.13202 ; https://doi.org/10.1038/s41433-024-03187-x ; https://doi.org/10.1038/s42003-024-07109-1
+[TAGS] pituitary, adenoma, MRI, optic chiasm, ACTH, prolactinoma, hormone, macroadenoma, microadenoma, stalk effect
+[LANG] en
+
+---
+
+Pituitary adenomas are benign epithelial tumors arising from adenohypophyseal cells of the pituitary gland. 
+They represent about 15% of all primary intracranial tumors and are classified by the 2022 WHO system according to transcription factor and hormone expression profile.
+
+Main histological groups:
+- **Lactotroph adenoma (prolactinoma)** – secretes prolactin.
+- **Somatotroph adenoma** – growth hormone (GH) secreting.
+- **Corticotroph adenoma** – ACTH secreting.
+- **Thyrotroph adenoma** – TSH secreting.
+- **Gonadotroph adenoma** – LH/FSH secreting.
+- **Null-cell adenoma** – hormonally inactive.
+
+Microadenomas are <10 mm; macroadenomas are ≥10 mm.  
+Nonfunctioning macroadenomas usually present with visual symptoms due to **optic chiasm compression**, while functioning adenomas present earlier with endocrine symptoms.
+
+---
+
+### MRI Appearance
+Pituitary adenomas are usually **well-circumscribed, intrasellar or suprasellar masses**.  
+- **T1-weighted**: Isointense to gray matter.  
+- **T2-weighted**: Iso- to slightly hyperintense.  
+- **Post-contrast T1**: Homogeneous enhancement in microadenomas; heterogeneous in macroadenomas with cystic or necrotic areas.  
+- **Dynamic contrast imaging** improves microadenoma detection (delayed enhancement compared to normal pituitary).  
+- **FLAIR**: Useful for delineating peritumoral edema or suprasellar extension.  
+- **DWI/ADC**: No restricted diffusion (helps differentiate from abscess or lymphoma).
+
+Typical signs of macroadenoma:
+- Enlargement of the sella turcica.
+- Superior displacement of optic chiasm → bitemporal hemianopia.
+- Deviation of pituitary stalk (infundibulum).
+- Cavernous sinus invasion in lateral growth.
+
+---
+
+### Clinical Features
+Pituitary tumors can cause symptoms through:
+1. **Hormone hypersecretion**  
+   - Prolactinoma → amenorrhea, galactorrhea, hypogonadism.  
+   - GH-secreting adenoma → acromegaly.  
+   - ACTH-secreting adenoma → Cushing’s disease (central obesity, moon face, hypertension).  
+   - TSH adenoma → hyperthyroidism.  
+
+2. **Mass effect**  
+   - Headache, bitemporal visual loss (optic chiasm compression), diplopia (cavernous sinus invasion).  
+   - Hypopituitarism from compression of normal gland.  
+
+3. **Pituitary apoplexy**  
+   - Sudden hemorrhage or infarction inside the adenoma → acute headache, vision loss, ophthalmoplegia, hypotension.
+
+---
+
+### Visual Pathway Involvement
+Tumors extending superiorly compress the optic chiasm.  
+Common visual field patterns:
+- Bitemporal hemianopia (most common).  
+- Junctional scotoma (if asymmetric).  
+- Monocular central loss (rare).  
+OCT imaging shows reduced retinal nerve fiber layer thickness, correlating with degree of chiasmal compression:contentReference[oaicite:0]{index=0}.
+
+---
+
+### Endocrine and Genetic Insights
+Recent WHO classification integrates immunohistochemistry for **transcription factors (PIT1, SF1, TPIT)**.  
+Each adenoma type is defined by hormone and transcription factor co-expression.  
+Molecular drivers include **GNAS, USP8, BRAF, and SF3B1** mutations (subtype-specific).  
+The 2022 WHO also defines **Pituitary neuroendocrine tumors (PitNETs)** as the broader category for adenomas and carcinomas:contentReference[oaicite:1]{index=1}.
+
+---
+
+### Advanced Research
+Deep learning and stem cell–derived pituitary organoid models have enabled prediction of hormone differentiation outcomes using vision transformers (ViT) and EfficientNet networks:contentReference[oaicite:2]{index=2}.  
+These methods predict ACTH-producing cell fate and have potential use in regenerative medicine for pituitary insufficiency.
+
+---
+
+### Prognosis and Management
+- **Microadenoma:** Often controlled with medical therapy (e.g., dopamine agonists for prolactinomas).  
+- **Macroadenoma:** Surgical resection via transsphenoidal approach ± radiotherapy.  
+- **Follow-up MRI:** Every 6–12 months for residual or recurrent lesions.  
+- **Visual recovery:** Strongly correlates with preoperative OCT thickness and early decompression:contentReference[oaicite:3]{index=3}.
+
+---
+
+### Summary for RAG
+Keywords: pituitary, adenoma, optic chiasm compression, hormone-secreting tumor, macroadenoma, prolactinoma, Cushing, ACTH, TSH, GH.  
+Diagnostic phrases: “sellar mass”, “suprasellar extension”, “dural enhancement”, “optic chiasm displacement”.  
+When model detects a mass in the sellar/suprasellar region with homogeneous enhancement and chiasmal compression, classify as **pituitary adenoma**.

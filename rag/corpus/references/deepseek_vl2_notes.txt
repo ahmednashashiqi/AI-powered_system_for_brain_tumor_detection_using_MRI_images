@@ -1,0 +1,38 @@
+[ID] ref.deepseek_vl2.v1
+[TITLE] DeepSeek-VL2 Model Notes and Parameters
+[SOURCE] DeepSeek-AI (2025); OpenGVLab Multimodal LLM Benchmarks
+[TAGS] deepseek-vl2, multimodal, vision-language, LLM, transformer
+[LANG] en
+
+### Model Overview
+DeepSeek-VL2 is a multimodal vision-language model (VLM) supporting image understanding and text reasoning.  
+Architecture: Hybrid encoder-decoder transformer with visual projection modules.
+
+- **Processor:** DeepseekVLV2Processor  
+- **Model Class:** DeepseekVLV2ForCausalLM  
+- **Parameters:** 27B (Tiny version: 1.4B)  
+- **Supported Tasks:** Visual description, classification, reasoning, OCR, captioning, report generation  
+- **Input:** (Image + Prompt Text)  
+- **Output:** Natural language reasoning or structured report
+
+### Hardware
+- Compatible with PyTorch ≥ 2.1  
+- GPU acceleration (CUDA 12.1+) recommended  
+- Float16 mixed precision inference supported
+
+### Context Window
+Supports 8k–16k tokens (depends on version).  
+Images are encoded as vision embeddings, combined with text tokens via learned alignment projection.
+
+### Integration in Flask App
+- Processor loaded once globally.
+- Inference flow:
+  1. Receive image
+  2. Pass through processor
+  3. Generate text output
+- Can combine with RAG pipeline for enriched answers.
+
+### RAG Enhancement
+If question or image type triggers “diagnostic mode,” the model retrieves from `rag/corpus` files (`glioma.txt`, `reporting.txt`, etc.) and merges retrieved context into the prompt.
+
+### Example Prompt

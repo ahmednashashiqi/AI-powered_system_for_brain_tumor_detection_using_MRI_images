@@ -1,0 +1,16 @@
+.dsenv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+node_modules/
+build/
+dist/
+DeepSeek-VL2/
+tracked_files.txt

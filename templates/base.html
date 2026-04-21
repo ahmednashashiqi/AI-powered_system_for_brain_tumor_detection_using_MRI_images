@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>{% block title %}Brain MRI Analyzer{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v=5) }}">
+
+  <style>
+    /* Profile dropdown */
+    .dropdown{position:relative}
+    .profile-btn{display:flex;align-items:center;gap:8px}
+    .menu{
+      position:absolute;right:0;top:42px;
+      background:var(--panel);border:1px solid var(--border);
+      border-radius:var(--radius-sm);min-width:200px;
+      box-shadow:0 8px 20px #0004;padding:6px 0;
+      transition: opacity .18s ease, transform .18s ease;
+      transform: translateY(-6px); opacity:0; pointer-events:none;
+      z-index: 50;
+    }
+    .menu.open{opacity:1; transform: translateY(0); pointer-events:auto;}
+    .menu-item{
+      display:flex;align-items:center;gap:10px;
+      width:100%;text-align:right;justify-content:flex-end;
+      padding:8px 14px;color:var(--text);background:none;border:none;cursor:pointer;font-size:14px
+    }
+    .menu-item:hover{background:var(--hover)}
+    .menu-item.danger{color:#f87171}
+    .menu hr{border:none;border-top:1px solid var(--border);margin:6px 0}
+
+    /* اختياري: صورة المستخدم */
+    .avatar{
+      width:28px;height:28px;border-radius:50%;object-fit:cover;border:1px solid var(--border);
+    }
+    .pill-email{font-family: ui-monospace, SFMono-Regular, Menlo, monospace;color:var(--muted);font-size:12px}
+  </style>
+</head>
+<body id="body">
+  <script>
+  (function(){
+    var t = localStorage.getItem('bma_theme') || 'dark';
+    var d = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var c = (t === 'system') ? (d ? 'dark' : 'light') : t;
+    document.body.classList.add(c);
+  })();
+  </script>
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">AI</div>
+      <div>Brain MRI Analyzer</div>
+      <div class="pill">Upload • Detect • Explain • Manage</div>
+    </div>
+
+    <div class="nav">
+      <a href="{{ url_for('analyze_page') }}"  class="{% if current_page=='analyze' %}active{% endif %}">Analyze</a>
+      <a href="{{ url_for('history_page') }}"  class="{% if current_page=='history' %}active{% endif %}">History</a>
+      <a href="{{ url_for('help_page') }}"     class="{% if current_page=='help' %}active{% endif %}">Help</a>
+      <a href="{{ url_for('about_page') }}"    class="{% if current_page=='about' %}active{% endif %}">About</a>
+      <a href="{{ url_for('settings_page') }}" class="{% if current_page=='settings' %}active{% endif %}">Settings</a>
+      <a href="{{ url_for('theme_page') }}"    class="{% if current_page=='theme' %}active{% endif %}">Theme</a>
+    </div>
+
+    <div class="actions" style="display:flex;gap:10px;align-items:center">
+      {# أزرار الصفحة الحالية (إن وُجدت) #}
+      {% block top_right %}{% endblock %}
+
+      {# زر البروفايل الثابت — يظهر في كل الصفحات #}
+      <div class="dropdown" id="profileDropdown">
+        <button id="profileBtn" class="btn profile-btn" aria-haspopup="true" aria-expanded="false">
+          <img id="userPhoto" class="avatar" alt="" style="display:none">
+          <span>👤</span>
+          <span>Profile</span>
+        </button>
+        <div id="profileMenu" class="menu" role="menu" aria-label="Profile menu">
+          <div class="menu-item" id="userEmailWrap" style="justify-content:space-between;cursor:default">
+            <span class="pill-email" id="userEmail">—</span>
+            <span class="avatar-wrap" style="display:flex;align-items:center;gap:8px">
+              <img id="userPhotoItem" class="avatar" alt="" style="display:none">
+            </span>
+          </div>
+          <hr>
+          <button id="logoutBtn" class="menu-item danger" role="menuitem">تسجيل الخروج</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    {% block content %}{% endblock %}
+  </div>
+
+  {# سكربت Firebase + منطق القائمة #}
+  <script type="module">
+    import { initializeApp, getApps } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+
+    // تهيئة Firebase مرة واحدة فقط
+    const firebaseConfig = {
+      apiKey: "AIzaSyCso1ATC1zQRT7tPKSC6ezLeI5jhQlKrXU",
+      authDomain: "mri-project-e4465.firebaseapp.com",
+      databaseURL: "https://mri-project-e4465-default-rtdb.firebaseio.com",
+      projectId: "mri-project-e4465",
+      storageBucket: "mri-project-e4465.firebasestorage.app",
+      messagingSenderId: "171030013607",
+      appId: "1:171030013607:web:1de6059c7dfc4bbf109d82",
+      measurementId: "G-LXMMWWPECD"
+    };
+    const app = getApps().length ? null : initializeApp(firebaseConfig);
+    const auth = getAuth();
+
+    // عناصر DOM
+    const dropdown = document.getElementById('profileDropdown');
+    const btn = document.getElementById('profileBtn');
+    const menu = document.getElementById('profileMenu');
+    const emailEl = document.getElementById('userEmail');
+    const photoBtn = document.getElementById('userPhoto');
+    const photoItem = document.getElementById('userPhotoItem');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    // تبديل إظهار القائمة
+    const toggleMenu = (open) => {
+      const isOpen = open ?? !menu.classList.contains('open');
+      menu.classList.toggle('open', isOpen);
+      btn.setAttribute('aria-expanded', String(isOpen));
+    };
+
+    btn?.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      toggleMenu();
+    });
+
+    // إغلاق عند النقر خارج القائمة
+    document.addEventListener('click', (e)=>{
+      if (!dropdown.contains(e.target)) toggleMenu(false);
+    });
+
+    // إغلاق بزر Esc
+    document.addEventListener('keydown', (e)=>{
+      if (e.key === 'Escape') toggleMenu(false);
+    });
+
+    // حالة المستخدم: عرض البريد والصورة
+    onAuthStateChanged(auth, (user)=>{
+      if (user) {
+        emailEl.textContent = user.email || '—';
+        if (user.photoURL) {
+          [photoBtn, photoItem].forEach(img=>{
+            img.src = user.photoURL;
+            img.style.display = '';
+          });
+        }
+      } else {
+        // غير مسجّل دخول: إظهار رابط تسجيل الدخول
+        emailEl.textContent = 'Not signed in';
+      }
+    });
+
+    // تسجيل الخروج: إنهاء جلسة السيرفر + Firebase
+    logoutBtn?.addEventListener('click', async ()=>{
+      try {
+        await fetch("/logout", { method: "POST" });
+      } catch {}
+      try {
+        await signOut(auth);
+      } catch {}
+      window.location.href = "/login";
+    });
+  </script>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>
